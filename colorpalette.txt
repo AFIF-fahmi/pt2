@@ -1,0 +1,25 @@
+# Primary Colors
+#0A1C3F - Deep Navy (Primary headings, important text)
+#1A2F4B - Dark Blue (Secondary headings, nav items)
+#3A5C7E - Medium Blue (Borders, section backgrounds)
+#4C7C9C - Ocean Blue (Primary buttons, links)
+#6B8EAD - Slate Blue (Secondary buttons, icons)
+#8BB4D1 - Light Blue (Hover states, highlights)
+#A0A0A0 - Gray (Body text, secondary text)
+#D2B48C - Tan (Accent, special elements)
+#F5F5F5 - Off White (Background color)
+
+# Secondary Colors
+#AEB3B5 - Light Gray (Borders, dividers)
+#C2C7C9 - Cool Gray (Secondary backgrounds)
+#CBE4F0 - Ice Blue (Hover effects)
+#D3D8DB - Slate Gray (Disabled states)
+#D6EAD7 - Mint Green (Success elements)
+#E1E9E5 - Sage (Light backgrounds)
+#E6E1D8 - Cream (Warm backgrounds)
+#EBD7D9 - Rose (Special highlights)
+#F0EFE7 - Pearl (Alt backgrounds)
+#F8F8F8 - Pure White (Card backgrounds)
+
+# test Color
+#e7ecf0

@@ -1,0 +1,38 @@
+.job-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease-out;
+}
+
+.job-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#applyButton:hover svg {
+    transform: translateX(4px);
+    transition: transform 0.2s ease-in-out;
+}
+
+.list-disc li {
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: all 0.4s ease-out;
+}
+
+.list-disc.visible li {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+#applyButton svg {
+    transition: transform 0.3s ease;
+}
+
+.job-card {
+    transition: all 0.3s ease;
+}
+
+.job-card:hover {
+    transform: translateY(-5px);
+}

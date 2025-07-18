@@ -1,0 +1,40 @@
+.map-container {
+    min-height: 600px;
+    transition: height 0.3s ease;
+}
+
+.captcha-code {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.25rem;
+    user-select: none;
+    padding: 1rem 2rem;
+    min-width: 200px;
+    text-align: center;
+}
+
+.regenerate-button {
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.regenerate-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.cooldown-text {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 0.75rem;
+    color: #4C7C9C;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.cooldown-text.visible {
+    opacity: 1;
+}
