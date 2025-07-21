@@ -10,6 +10,10 @@
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+div {
+    border: solid 1px black;
+}
+
 .hover-btn1 {
     @apply transition hover:bg-transparent hover:border-2 hover:border-[#F8F8F8] duration-300 backdrop-blur;
 }

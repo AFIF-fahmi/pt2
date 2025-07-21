@@ -177,7 +177,7 @@
           x-transition:leave="transition ease-in duration-150"
           x-transition:leave-start="opacity-100 scale-100"
           x-transition:leave-end="opacity-0 scale-95"
-          class="md:hidden fixed inset-0 z-50 bg-[#F8F8F8]"
+          class="md:hidden fixed inset-0 z-[1100] bg-[#F8F8F8]"
           x-cloak>
           <div class="p-4">
             <div class="flex items-center justify-between">
@@ -286,7 +286,7 @@
 
       <!-- Mobile menu -->
       <div class="md:hidden" x-show="open" x-transition x-cloak>
-        <nav class="fixed inset-0 z-50 bg-[#E1E9E5]">
+        <nav class="fixed inset-0 z-[1100] bg-[#E1E9E5]">
           <div class="p-4">
             <div class="flex items-center justify-between">
               <a href="{{ url('/beranda') }}" class="text-[#4C7C9C]">
