@@ -42,9 +42,9 @@ function updateActiveSectionInNav(sectionId) {
     navLinks.forEach(link => {
         const linkTarget = link.getAttribute('href').slice(1);
         if (linkTarget === sectionId) {
-            link.classList.add('text-[#4C7C9C]', 'font-semibold');
+            link.classList.add('text-blue', 'font-semibold');
         } else {
-            link.classList.remove('text-[#4C7C9C]', 'font-semibold');
+            link.classList.remove('text-blue', 'font-semibold');
         }
     });
 }

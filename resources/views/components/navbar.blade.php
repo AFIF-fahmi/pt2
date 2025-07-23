@@ -1,10 +1,10 @@
 <!-- Top Banner -->
-<div class="bg-[#4C7C9C] transition-all duration-300 z-[999]" id="topBanner">
+<div class="bg-blue transition-all duration-300 z-[999]" id="topBanner">
   <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between gap-4 py-2 text-sm">
       <!-- Location - Left -->
       <div>
-        <a href="https://maps.google.com" target="_blank" class="flex items-center gap-1.5 text-[#F0EFE7] hover:text-[#F8F8F8] transition">
+        <a href="https://maps.google.com" target="_blank" class="flex items-center gap-1.5 text-beige hover:text-ivory transition">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -15,14 +15,14 @@
 
       <!-- Contact Info - Right -->
       <div class="flex items-center gap-4">
-        <a href="https://wa.me/6281234567890" target="_blank" class="flex items-center gap-1.5 text-[#F0EFE7] hover:text-[#F8F8F8] transition">
+        <a href="https://wa.me/6281234567890" target="_blank" class="flex items-center gap-1.5 text-beige hover:text-ivory transition">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
           </svg>
           <span>+62 812-3456-7890</span>
         </a>
 
-        <a href="mailto:info@example.com" class="flex items-center gap-1.5 text-[#F0EFE7] hover:text-[#F8F8F8] transition">
+        <a href="mailto:info@example.com" class="flex items-center gap-1.5 text-beige hover:text-ivory transition">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
           </svg>
@@ -33,7 +33,7 @@
   </div>
 </div>
 
-<header class="bg-[#E1E9E5] w-full transition-all duration-300 shadow-lg z-[1000]" id="navbar">
+<header class="bg-sage w-full transition-all duration-300 shadow-lg z-[1000]" id="navbar">
   <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
     <div class="flex h-16 items-center justify-between">
       <div class="md:flex md:items-center md:gap-12">
@@ -52,7 +52,7 @@
         <nav aria-label="Global">
           <ul class="flex items-center gap-6 text-base">
             <li>
-              <a class="text-[#1A2F4B] transition hover:text-[#4C7C9C] {{ request()->is('beranda') ? 'text-[#4C7C9C] font-semibold' : '' }}" href="{{ url('/beranda') }}">
+              <a class="text-navy-light transition hover:text-blue {{ request()->is('beranda') ? 'text-blue font-semibold' : '' }}" href="{{ url('/beranda') }}">
                 Beranda
               </a>
             </li>
@@ -60,7 +60,7 @@
               <button
                 @click="open = !open"
                 @click.away="open = false"
-                class="flex items-center text-[#1A2F4B] transition hover:text-[#4C7C9C] text-base {{ request()->is('layanan*') ? 'text-[#4C7C9C] font-semibold' : '' }}">
+                class="flex items-center text-navy-light transition hover:text-blue text-base {{ request()->is('layanan*') ? 'text-blue font-semibold' : '' }}">
                 <span>Layanan</span>
                 <svg class="ml-1 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                   <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -75,44 +75,44 @@
                 x-transition:leave="transition ease-in duration-150"
                 x-transition:leave-start="opacity-100 translate-y-0"
                 x-transition:leave-end="opacity-0 translate-y-1"
-                class="absolute left-0 mt-2 w-72 rounded-lg bg-[#F8F8F8] shadow-xl outline-none z-[1001]"
+                class="absolute left-0 mt-2 w-72 rounded-lg bg-ivory shadow-xl outline-none z-[1001]"
                 x-cloak>
                 <div class="py-1">
-                  <a href="{{ url('/layanan/virtual-office') }}" class="block px-4 py-2 text-base text-[#1A2F4B] hover:bg-[#F0EFE7] hover:text-[#4C7C9C] {{ request()->is('layanan/virtual-office') ? 'text-[#4C7C9C] font-semibold bg-[#F0EFE7]' : '' }}">
+                  <a href="{{ url('/layanan/virtual-office') }}" class="block px-4 py-2 text-base text-navy-light hover:bg-beige hover:text-blue {{ request()->is('layanan/virtual-office') ? 'text-blue font-semibold bg-beige' : '' }}">
                     Virtual Office
                   </a>
-                  <a href="{{ url('/layanan/private-office') }}" class="block px-4 py-2 text-base text-[#1A2F4B] hover:bg-[#F0EFE7] hover:text-[#4C7C9C] {{ request()->is('layanan/private-office') ? 'text-[#4C7C9C] font-semibold bg-[#F0EFE7]' : '' }}">
+                  <a href="{{ url('/layanan/private-office') }}" class="block px-4 py-2 text-base text-navy-light hover:bg-beige hover:text-blue {{ request()->is('layanan/private-office') ? 'text-blue font-semibold bg-beige' : '' }}">
                     Private Office
                   </a>
-                  <a href="{{ url('/layanan/shared-office') }}" class="block px-4 py-2 text-base text-[#1A2F4B] hover:bg-[#F0EFE7] hover:text-[#4C7C9C] {{ request()->is('layanan/shared-office') ? 'text-[#4C7C9C] font-semibold bg-[#F0EFE7]' : '' }}">
+                  <a href="{{ url('/layanan/shared-office') }}" class="block px-4 py-2 text-base text-navy-light hover:bg-beige hover:text-blue {{ request()->is('layanan/shared-office') ? 'text-blue font-semibold bg-beige' : '' }}">
                     Shared Office
                   </a>
-                  <a href="{{ url('/layanan/pembuatan-pt-cv') }}" class="block px-4 py-2 text-base text-[#1A2F4B] hover:bg-[#F0EFE7] hover:text-[#4C7C9C] {{ request()->is('layanan/pembuatan-pt-cv') ? 'text-[#4C7C9C] font-semibold bg-[#F0EFE7]' : '' }}">
+                  <a href="{{ url('/layanan/pembuatan-pt-cv') }}" class="block px-4 py-2 text-base text-navy-light hover:bg-beige hover:text-blue {{ request()->is('layanan/pembuatan-pt-cv') ? 'text-blue font-semibold bg-beige' : '' }}">
                     Pembuatan PT & CV
                   </a>
-                  <a href="{{ url('/layanan/paket-hemat') }}" class="block px-4 py-2 text-base text-[#1A2F4B] hover:bg-[#F0EFE7] hover:text-[#4C7C9C] {{ request()->is('layanan/paket-hemat') ? 'text-[#4C7C9C] font-semibold bg-[#F0EFE7]' : '' }}">
+                  <a href="{{ url('/layanan/paket-hemat') }}" class="block px-4 py-2 text-base text-navy-light hover:bg-beige hover:text-blue {{ request()->is('layanan/paket-hemat') ? 'text-blue font-semibold bg-beige' : '' }}">
                     Paket Hemat
                   </a>
                 </div>
               </div>
             </li>
             <li>
-              <a class="text-[#1A2F4B] transition hover:text-[#4C7C9C] {{ request()->is('galeri') ? 'text-[#4C7C9C] font-semibold' : '' }}" href="{{ url('/galeri') }}">
+              <a class="text-navy-light transition hover:text-blue {{ request()->is('galeri') ? 'text-blue font-semibold' : '' }}" href="{{ url('/galeri') }}">
                 Galeri
               </a>
             </li>
             <li>
-              <a class="text-[#1A2F4B] transition hover:text-[#4C7C9C] {{ request()->is('kontak') ? 'text-[#4C7C9C] font-semibold' : '' }}" href="{{ url('/kontak') }}">
+              <a class="text-navy-light transition hover:text-blue {{ request()->is('kontak') ? 'text-blue font-semibold' : '' }}" href="{{ url('/kontak') }}">
                 Kontak
               </a>
             </li>
             <li>
-              <a class="text-[#1A2F4B] transition hover:text-[#4C7C9C] {{ request()->is('job') ? 'text-[#4C7C9C] font-semibold' : '' }}" href="{{ url('/job') }}">
+              <a class="text-navy-light transition hover:text-blue {{ request()->is('job') ? 'text-blue font-semibold' : '' }}" href="{{ url('/job') }}">
                 Job
               </a>
             </li>
             <li>
-              <a class="text-[#1A2F4B] transition hover:text-[#4C7C9C] {{ request()->is('blog') ? 'text-[#4C7C9C] font-semibold' : '' }}" href="{{ url('/blog') }}">
+              <a class="text-navy-light transition hover:text-blue {{ request()->is('blog') ? 'text-blue font-semibold' : '' }}" href="{{ url('/blog') }}">
                 Blog
               </a>
             </li>
@@ -124,7 +124,7 @@
       <div class="relative" x-data="{ searchOpen: false }">
         <button
           @click="searchOpen = !searchOpen"
-          class="p-2 text-[#1A2F4B] transition hover:text-[#4C7C9C] focus:outline-none focus:ring-2 focus:ring-[#4C7C9C] rounded-full">
+          class="p-2 text-navy-light transition hover:text-blue focus:outline-none focus:ring-2 focus:ring-blue rounded-full">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
           </svg>
@@ -139,16 +139,16 @@
           x-transition:leave="transition ease-in duration-150"
           x-transition:leave-start="opacity-100 scale-100"
           x-transition:leave-end="opacity-0 scale-95"
-          class="absolute right-0 mt-2 w-72 origin-top-right bg-[#F8F8F8] shadow-xl rounded-lg outline-none">
-          <form action="{{ url('/search') }}" method="GET" class="bg-[#F8F8F8] rounded-lg p-4">
+          class="absolute right-0 mt-2 w-72 origin-top-right bg-ivory shadow-xl rounded-lg outline-none">
+          <form action="{{ url('/search') }}" method="GET" class="bg-ivory rounded-lg p-4">
             <div class="relative">
               <input
                 type="text"
                 name="q"
                 placeholder="Cari sesuatu..."
-                class="w-full rounded-lg border-[#AEB3B5] pr-10 pl-4 py-2 text-sm focus:border-[#4C7C9C] focus:ring-2 focus:ring-[#4C7C9C]"
+                class="w-full rounded-lg border-gray-light pr-10 pl-4 py-2 text-sm focus:border-blue focus:ring-2 focus:ring-blue"
                 @click.away="searchOpen = false" />
-              <button type="submit" class="absolute inset-y-0 right-0 flex items-center pr-3 text-[#6B8EAD] hover:text-[#4C7C9C]">
+              <button type="submit" class="absolute inset-y-0 right-0 flex items-center pr-3 text-blue-light hover:text-blue">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
@@ -161,7 +161,7 @@
       <!-- Mobile menu button -->
       <div class="block md:hidden" x-data="{ mobileMenuOpen: false }">
         <button
-          class="rounded-lg bg-[#F0EFE7] p-2 text-[#1A2F4B] transition hover:text-[#4C7C9C]"
+          class="rounded-lg bg-beige p-2 text-navy-light transition hover:text-blue"
           @click="mobileMenuOpen = !mobileMenuOpen">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
@@ -177,11 +177,11 @@
           x-transition:leave="transition ease-in duration-150"
           x-transition:leave-start="opacity-100 scale-100"
           x-transition:leave-end="opacity-0 scale-95"
-          class="md:hidden fixed inset-0 z-[1100] bg-[#F8F8F8]"
+          class="md:hidden fixed inset-0 z-[1100] bg-ivory"
           x-cloak>
           <div class="p-4">
             <div class="flex items-center justify-between">
-              <a href="{{ url('/beranda') }}" class="text-[#4C7C9C]">
+              <a href="{{ url('/beranda') }}" class="text-blue">
                 <span class="sr-only">Home</span>
                 <svg class="h-8" viewBox="0 0 28 24" fill="currentColor">
                   <path
@@ -191,7 +191,7 @@
 
               <button
                 @click="mobileMenuOpen = false"
-                class="rounded-lg p-2 text-[#1A2F4B] hover:text-[#4C7C9C] focus:ring-2 focus:ring-[#4C7C9C]">
+                class="rounded-lg p-2 text-navy-light hover:text-blue focus:ring-2 focus:ring-blue">
                 <span class="sr-only">Close menu</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -286,10 +286,10 @@
 
       <!-- Mobile menu -->
       <div class="md:hidden" x-show="open" x-transition x-cloak>
-        <nav class="fixed inset-0 z-[1100] bg-[#E1E9E5]">
+        <nav class="fixed inset-0 z-[1100] bg-sage">
           <div class="p-4">
             <div class="flex items-center justify-between">
-              <a href="{{ url('/beranda') }}" class="text-[#4C7C9C]">
+              <a href="{{ url('/beranda') }}" class="text-blue">
                 <span class="sr-only">Home</span>
                 <svg class="h-8" viewBox="0 0 28 24" fill="currentColor">
                   <path
@@ -299,7 +299,7 @@
 
               <button
                 @click="mobileMenuOpen = false"
-                class="rounded-lg p-2 text-[#1A2F4B] hover:text-[#4C7C9C] focus:ring-2 focus:ring-[#4C7C9C]">
+                class="rounded-lg p-2 text-navy-light hover:text-blue focus:ring-2 focus:ring-blue">
                 <span class="sr-only">Close menu</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />

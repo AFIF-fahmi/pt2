@@ -4,13 +4,13 @@
 <link rel="stylesheet" href="{{ asset('css/galeri.css') }}">
 
 <!-- Hero Section -->
-<section class="relative bg-[#0A1C3F] text-[#F8F8F8] py-32">
+<section class="relative bg-navy text-ivory py-32">
   <div class="absolute inset-0">
     <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=1200&q=80" alt="Galeri Kantor" class="h-full w-full object-cover opacity-20" />
   </div>
   <div class="relative container mx-auto px-8">
     <h1 class="text-4xl md:text-5xl font-bold mb-6">Galeri</h1>
-    <p class="text-xl text-[#F0EFE7] max-w-2xl">Kumpulan dokumentasi suasana kantor, ruang meeting, dan fasilitas kami.</p>
+    <p class="text-xl text-light max-w-2xl">Kumpulan dokumentasi suasana kantor, ruang meeting, dan fasilitas kami.</p>
   </div>
 </section>
 

@@ -2,52 +2,52 @@
 
 @section('content')
 <!-- Hero Section -->
-<section class="relative bg-[#0A1C3F] text-[#F8F8F8] py-32">
+<section class="relative layout-primary py-32">
     <div class="absolute inset-0">
         <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3" alt="Office" class="w-full h-full object-cover opacity-20">
     </div>
     <div class="relative container mx-auto px-4">
         <h1 class="text-4xl md:text-5xl font-bold mb-6">Layanan Kami</h1>
-        <p class="text-xl text-[#e7ecf0] max-w-2xl">Solusi lengkap untuk kebutuhan kantor dan legalitas bisnis Anda dengan layanan profesional dan lokasi strategis</p>
+        <p class="text-xl text-light max-w-2xl">Solusi lengkap untuk kebutuhan kantor dan legalitas bisnis Anda dengan layanan profesional dan lokasi strategis</p>
     </div>
 </section>
 
 <!-- Quick Navigation -->
-<nav class="sticky top-16 bg-[#F8F8F8] shadow-md z-40">
+<nav class="sticky top-16 layout-alt shadow-md z-40">
     <div class="container mx-auto px-4">
         <ul class="flex overflow-x-auto space-x-6 py-4 text-sm md:text-base" x-data="{ activeSection: window.location.hash }">
             <li>
                 <a href="#virtual-office"
-                    class="whitespace-nowrap text-[#1A2F4B] hover:text-[#4C7C9C] transition"
-                    :class="{ 'text-[#4C7C9C] font-semibold': activeSection === '#virtual-office' }">
+                    class="whitespace-nowrap text-navy-light hover:text-blue transition"
+                    :class="{ 'text-blue font-semibold': activeSection === '#virtual-office' }">
                     Virtual Office
                 </a>
             </li>
             <li>
                 <a href="#private-office"
-                    class="whitespace-nowrap text-[#1A2F4B] hover:text-[#4C7C9C] transition"
-                    :class="{ 'text-[#4C7C9C] font-semibold': activeSection === '#private-office' }">
+                    class="whitespace-nowrap text-navy-light hover:text-blue transition"
+                    :class="{ 'text-blue font-semibold': activeSection === '#private-office' }">
                     Private Office
                 </a>
             </li>
             <li>
                 <a href="#shared-office"
-                    class="whitespace-nowrap text-[#1A2F4B] hover:text-[#4C7C9C] transition"
-                    :class="{ 'text-[#4C7C9C] font-semibold': activeSection === '#shared-office' }">
+                    class="whitespace-nowrap text-navy-light hover:text-blue transition"
+                    :class="{ 'text-blue font-semibold': activeSection === '#shared-office' }">
                     Shared Office
                 </a>
             </li>
             <li>
                 <a href="#pembuatan-pt-cv"
-                    class="whitespace-nowrap text-[#1A2F4B] hover:text-[#4C7C9C] transition"
-                    :class="{ 'text-[#4C7C9C] font-semibold': activeSection === '#pembuatan-pt-cv' }">
+                    class="whitespace-nowrap text-navy-light hover:text-blue transition"
+                    :class="{ 'text-blue font-semibold': activeSection === '#pembuatan-pt-cv' }">
                     Pembuatan PT & CV
                 </a>
             </li>
             <li>
                 <a href="#paket-hemat"
-                    class="whitespace-nowrap text-[#1A2F4B] hover:text-[#4C7C9C] transition"
-                    :class="{ 'text-[#4C7C9C] font-semibold': activeSection === '#paket-hemat' }">
+                    class="whitespace-nowrap text-navy-light hover:text-blue transition"
+                    :class="{ 'text-blue font-semibold': activeSection === '#paket-hemat' }">
                     Paket Hemat
                 </a>
             </li>
@@ -56,16 +56,16 @@
 </nav>
 
 <!-- Virtual Office Section -->
-<section id="virtual-office" class="py-20 bg-[#F5F5F5]">
+<section id="virtual-office" class="py-20 bg-white-smoke">
     <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto">
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div class="order-2 md:order-1">
-                    <h2 class="text-3xl font-bold text-[#0A1C3F] mb-6">Virtual Office</h2>
-                    <p class="text-[#1A2F4B] mb-6">Solusi kantor profesional dengan biaya hemat. Dapatkan alamat bisnis prestisius di pusat kota untuk meningkatkan citra perusahaan Anda.</p>
+                    <h2 class="text-3xl font-bold text-navy mb-6">Virtual Office</h2>
+                    <p class="text-navy-light mb-6">Solusi kantor profesional dengan biaya hemat. Dapatkan alamat bisnis prestisius di pusat kota untuk meningkatkan citra perusahaan Anda.</p>
 
-                    <div class="bg-[#F8F8F8] rounded-lg p-6 shadow-lg mb-6">
-                        <h3 class="text-xl font-semibold text-[#4C7C9C] mb-4">Mulai Dari IDR 400rb/bln</h3>
+                    <div class="bg-ivory rounded-lg p-6 shadow-lg mb-6">
+                        <h3 class="text-xl font-semibold text-blue mb-4">Mulai Dari IDR 400rb/bln</h3>
                         <div class="space-y-6">
                             <div>
                                 <h4 class="font-semibold text-gray-800 mb-2">Layanan Unggulan:</h4>
@@ -119,11 +119,11 @@
 
                     <div class="flex gap-4">
 
-                        <a href="{{ url('/kontak') }}" class="group inline-block bg-[#4C7C9C] text-[#F8F8F8] px-8 py-3 rounded-lg hover:bg-[#3A5C7E] transition">
+                        <a href="{{ url('/kontak') }}" class="group inline-block bg-blue text-ivory px-8 py-3 rounded-lg hover:bg-steel-blue transition">
                             Hubungi Kami
                             <span><i class="fa-solid fa-phone translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
                         </a>
-                        <a href="#" class="group inline-block bg-[#F8F8F8] text-[#4C7C9C] px-8 py-3 rounded-lg hover:bg-[#e7ecf0] transition border-2 border-[#4C7C9C]"> 
+                        <a href="#" class="group inline-block bg-ivory text-blue px-8 py-3 rounded-lg hover:bg-[#e7ecf0] transition border-2 border-blue"> 
                             Lihat Price List
                             <span><i class="fa-solid fa-coins translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
                         </a>
@@ -219,16 +219,16 @@
 </section>
 
 <!-- Shared Office Section -->
-<section id="shared-office" class="py-20 bg-[#F5F5F5]">
+<section id="shared-office" class="py-20 bg-white-smoke">
     <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto">
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div class="order-2 md:order-1">
-                    <h2 class="text-3xl font-bold text-[#0A1C3F] mb-6">Shared Office</h2>
-                    <p class="text-[#1A2F4B] mb-6">Solusi ekonomis untuk startup dan freelancer dengan full akses ke fasilitas kantor dan komunitas bisnis yang dinamis.</p>
+                    <h2 class="text-3xl font-bold text-navy mb-6">Shared Office</h2>
+                    <p class="text-navy-light mb-6">Solusi ekonomis untuk startup dan freelancer dengan full akses ke fasilitas kantor dan komunitas bisnis yang dinamis.</p>
 
-                    <div class="bg-[#F8F8F8] rounded-lg p-6 shadow-lg mb-6">
-                        <h3 class="text-xl font-semibold text-[#4C7C9C] mb-4">Mulai dari IDR 1jt/bln</h3>
+                    <div class="bg-ivory rounded-lg p-6 shadow-lg mb-6">
+                        <h3 class="text-xl font-semibold text-blue mb-4">Mulai dari IDR 1jt/bln</h3>
                         <div class="space-y-6">
                             <div>
                                 <h4 class="font-semibold text-gray-800 mb-2">Yang Anda Dapatkan:</h4>
@@ -281,11 +281,11 @@
                     </div>
 
                     <div class="flex gap-4">
-                        <a href="{{ url('/kontak') }}" class="group inline-block bg-[#4C7C9C] text-[#F8F8F8] px-8 py-3 rounded-lg hover:bg-[#3A5C7E] transition">
+                        <a href="{{ url('/kontak') }}" class="group inline-block bg-blue text-ivory px-8 py-3 rounded-lg hover:bg-steel-blue transition">
                             Hubungi Kami
                             <span><i class="fa-solid fa-phone translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
                         </a>
-                        <a href="#" class="group inline-block bg-[#F8F8F8] text-[#4C7C9C] px-8 py-3 rounded-lg hover:bg-[#e7ecf0] transition border-2 border-[#4C7C9C]">
+                        <a href="#" class="group inline-block bg-ivory text-blue px-8 py-3 rounded-lg hover:bg-[#e7ecf0] transition border-2 border-blue">
                             Lihat Price List
                             <span><i class="fa-solid fa-coins translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
                         </a>
@@ -381,16 +381,16 @@
 </section>
 
 <!-- Paket Hemat Section -->
-<section id="paket-hemat" class="py-20 bg-[#F5F5F5]">
+<section id="paket-hemat" class="py-20 bg-white-smoke">
     <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto">
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div class="order-2 md:order-1">
-                    <h2 class="text-3xl font-bold text-[#0A1C3F] mb-6">Paket Hemat</h2>
-                    <p class="text-[#1A2F4B] mb-6">Kombinasi lengkap Virtual Office dan Pendirian PT/CV dengan harga spesial. Hemat hingga 30% dengan paket bundling.</p>
+                    <h2 class="text-3xl font-bold text-navy mb-6">Paket Hemat</h2>
+                    <p class="text-navy-light mb-6">Kombinasi lengkap Virtual Office dan Pendirian PT/CV dengan harga spesial. Hemat hingga 30% dengan paket bundling.</p>
 
                     <div class="bg-white rounded-lg p-6 shadow-lg mb-6">
-                        <h3 class="text-xl font-semibold text-[#4C7C9C] mb-4">Mulai dari IDR 7,5jt</h3>
+                        <h3 class="text-xl font-semibold text-blue mb-4">Mulai dari IDR 7,5jt</h3>
                         <div class="space-y-6">
                             <div>
                                 <h4 class="font-semibold text-gray-800 mb-2">Paket Termasuk:</h4>
@@ -443,11 +443,11 @@
                     </div>
 
                     <div class="flex gap-4">
-                        <a href="{{ url('/kontak') }}" class="group inline-block bg-[#4C7C9C] text-[#F8F8F8] px-8 py-3 rounded-lg hover:bg-[#3A5C7E] transition">
+                        <a href="{{ url('/kontak') }}" class="group inline-block bg-blue text-ivory px-8 py-3 rounded-lg hover:bg-steel-blue transition">
                             Hubungi Kami
                             <span><i class="fa-solid fa-phone translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
                         </a>
-                        <a href="#" class="group inline-block bg-[#F8F8F8] text-[#4C7C9C] px-8 py-3 rounded-lg hover:bg-[#e7ecf0] transition border-2 border-[#4C7C9C]">
+                        <a href="#" class="group inline-block bg-ivory text-blue px-8 py-3 rounded-lg hover:bg-[#e7ecf0] transition border-2 border-blue">
                             Lihat Price List
                             <span><i class="fa-solid fa-coins translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
                         </a>
@@ -462,13 +462,13 @@
 </section>
 
 <!-- Section CTA -->
-<section id="CTA" class="py-20 bg-[#4C7C9C]">
+<section id="CTA" class="py-20 bg-blue">
     <div class="container mx-auto px-4 text-center">
-        <h2 class="text-3xl font-bold text-[#F8F8F8] mb-8">Siap Memulai?</h2>
+        <h2 class="text-3xl font-bold text-ivory mb-8">Siap Memulai?</h2>
         <p class="text-xl text-[#e7ecf0] mb-8 max-w-2xl mx-auto">
             Hubungi kami untuk konsultasi gratis dan penawaran terbaik sesuai kebutuhan bisnis Anda
         </p>
-        <a href="{{ url('/kontak') }}" class="inline-block bg-[#F8F8F8] text-[#4C7C9C] px-8 py-3 rounded-lg hover:bg-[#e7ecf0] transition">
+        <a href="{{ url('/kontak') }}" class="inline-block bg-ivory text-blue px-8 py-3 rounded-lg hover:bg-[#e7ecf0] transition">
             Hubungi Kami Sekarang
         </a>
     </div>

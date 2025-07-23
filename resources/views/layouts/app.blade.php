@@ -21,7 +21,7 @@
     </style>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-[#F5F5F5]">
+<body class="bg-white-smoke">
     @include('components.navbar')
     
     <main>

@@ -21,5 +21,28 @@
 #F0EFE7 - Pearl (Alt backgrounds)
 #F8F8F8 - Pure White (Card backgrounds)
 
-# test Color
-#e7ecf0
+
+
+Dark Theme
+Primary Colors
+#F5F5F5 – Off White (Teks utama, judul tingkat 1)
+#D1D1D1 – Light Gray (Teks penting sekunder, item navigasi)
+#2A3B55 – Dark Slate Blue (Garis pembatas, latar sektion)
+#4C7C9C – Ocean Blue (Tombol primer, tautan)
+#6B8EAD – Slate Blue (Tombol sekunder, ikon)
+#8BB4D1 – Light Blue (Status hover, penyorotan)
+#C2C2C2 – Medium Gray (Teks isi, teks sekunder)
+#D2B48C – Tan (Aksen khusus, elemen spesial)
+#121A26 – Almost Black (Latar utama)
+
+Secondary Colors
+#343A40 – Light Gray (Garis tepi, pembagi)
+#2A3038 – Cool Gray (Latar kedua)
+#1E272F – Ice Blue (Efek hover sekunder)
+#2D3235 – Slate Gray (State nonaktif/disabled)
+#28533C – Mint Green (Elemen sukses)
+#28312A – Sage (Latar ringan)
+#2B1F18 – Cream (Latar hangat)
+#331E22 – Rose (Penyorotan spesial)
+#2F2F2B – Pearl (Latar alternatif)
+#1E1E1E – Pure Black (Latar kartu)
