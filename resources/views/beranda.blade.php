@@ -41,15 +41,15 @@
 </section>
 
 <!-- Section Service Cards -->
-<section id="layanan-beranda" class="py-24 bg-white-smoke">
+<section id="layanan-beranda" class="py-12 bg-primary-bckg">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-bold text-center text-navy sm:text-4xl mb-16">
+        <h2 class="text-3xl font-bold text-center text-primary-text sm:text-4xl mb-16">
             Layanan Kami
         </h2>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 max-w-[1400px] mx-auto">
             <!-- Virtual Office Card -->
-            <div class="group relative overflow-hidden rounded-xl bg-ivory shadow-lg transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
+            <div class="group bg-primary-card relative overflow-hidden rounded-xl shadow-lg transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
                 <div class="aspect-w-16 aspect-h-12 relative overflow-hidden">
                     <div class="h-56 bg-gradient-to-r from-blue to-blue-light">
                         <img
@@ -60,11 +60,11 @@
                     </div>
                 </div>
                 <div class="p-8">
-                    <h3 class="text-xl font-bold text-navy mb-2">Virtual Office</h3>
-                    <p class="text-blue font-semibold mb-3">
+                    <h3 class="text-xl font-bold text-card-title mb-2">Virtual Office</h3>
+                    <p class="text-secondary-text font-semibold mb-3">
                         Mulai Dari IDR 400rb/bln
                     </p>
-                    <p class="text-sm text-navy-light line-clamp-3">
+                    <p class="text-sm text-primary-text line-clamp-3">
                         Alamat bisnis prestisius di pusat kota dengan layanan surat menyurat, resepsionis profesional, dan notifikasi dokumen via email/WA
                     </p>
                 </div>
@@ -72,7 +72,7 @@
             </div>
 
             <!-- Private Office Card -->
-            <div class="group relative overflow-hidden rounded-xl bg-ivory shadow-lg transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
+            <div class="group bg-primary-card relative overflow-hidden rounded-xl shadow-lg transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
                 <div class="aspect-w-16 aspect-h-12 relative overflow-hidden">
                     <div class="h-56 bg-gradient-to-r from-steel-blue to-blue">
                         <img
@@ -83,11 +83,11 @@
                     </div>
                 </div>
                 <div class="p-8">
-                    <h3 class="text-xl font-bold text-navy mb-2">Private Office</h3>
-                    <p class="text-blue font-semibold mb-3">
+                    <h3 class="text-xl font-bold text-card-title mb-2">Private Office</h3>
+                    <p class="text-secondary-text font-semibold mb-3">
                         Mulai dari IDR 4jt/bln
                     </p>
-                    <p class="text-sm text-navy-light line-clamp-3">
+                    <p class="text-sm text-primary-text line-clamp-3">
                         Ruang kantor private dengan view kota, fasilitas lengkap termasuk meja-kursi, internet cepat, ruang meeting, dan pantry
                     </p>
                 </div>
@@ -95,7 +95,7 @@
             </div>
 
             <!-- Shared Office Card -->
-            <div class="group relative overflow-hidden rounded-xl bg-ivory shadow-lg transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
+            <div class="group bg-primary-card relative overflow-hidden rounded-xl shadow-lg transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
                 <div class="aspect-w-16 aspect-h-12 relative overflow-hidden">
                     <div class="h-56 bg-gradient-to-r from-blue-light to-blue-soft">
                         <img
@@ -106,11 +106,11 @@
                     </div>
                 </div>
                 <div class="p-8">
-                    <h3 class="text-xl font-bold text-navy mb-2">Shared Office</h3>
-                    <p class="text-blue font-semibold mb-3">
+                    <h3 class="text-xl font-bold text-card-title mb-2">Shared Office</h3>
+                    <p class="text-secondary-text font-semibold mb-3">
                         Mulai dari IDR 1jt/bln
                     </p>
-                    <p class="text-sm text-navy-light line-clamp-3">
+                    <p class="text-sm text-primary-text line-clamp-3">
                         Solusi hemat dengan workstation bersama, akses internet cepat, ruang meeting, dan networking dengan komunitas bisnis
                     </p>
                 </div>
@@ -118,7 +118,7 @@
             </div>
 
             <!-- Jasa Pembuatan PT CV Card -->
-            <div class="group relative overflow-hidden rounded-xl bg-ivory shadow-lg transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
+            <div class="group bg-primary-card relative overflow-hidden rounded-xl shadow-lg transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
                 <div class="aspect-w-16 aspect-h-12 relative overflow-hidden">
                     <div class="h-56 bg-gradient-to-r from-steel-blue to-blue">
                         <img
@@ -129,11 +129,11 @@
                     </div>
                 </div>
                 <div class="p-8">
-                    <h3 class="text-xl font-bold text-navy mb-2">Pembuatan PT & CV</h3>
-                    <p class="text-blue font-semibold mb-3">
+                    <h3 class="text-xl font-bold text-card-title mb-2">Pembuatan PT & CV</h3>
+                    <p class="text-secondary-text font-semibold mb-3">
                         Mulai dari IDR 3,5jt
                     </p>
-                    <p class="text-sm text-navy-light line-clamp-3">
+                    <p class="text-sm text-primary-text line-clamp-3">
                         Jasa pendirian perusahaan lengkap dengan pendampingan, termasuk pembuatan akta, NPWP, NIB, hingga rekening perusahaan
                     </p>
                 </div>
@@ -141,7 +141,7 @@
             </div>
 
             <!-- Paket Hemat Card -->
-            <div class="group relative overflow-hidden rounded-xl bg-ivory shadow-lg transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
+            <div class="group bg-primary-card relative overflow-hidden rounded-xl shadow-lg transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
                 <div class="aspect-w-16 aspect-h-12 relative overflow-hidden">
                     <div class="h-56 bg-gradient-to-r from-blue to-blue-light">
                         <img
@@ -152,11 +152,11 @@
                     </div>
                 </div>
                 <div class="p-8">
-                    <h3 class="text-xl font-bold text-navy mb-2">Paket Lengkap</h3>
-                    <p class="text-blue font-semibold mb-3">
+                    <h3 class="text-xl font-bold text-card-title mb-2">Paket Lengkap</h3>
+                    <p class="text-secondary-text font-semibold mb-3">
                         Mulai dari IDR 7,5jt
                     </p>
-                    <p class="text-sm text-navy-light line-clamp-3">
+                    <p class="text-sm text-primary-text line-clamp-3">
                         Paket komplit pembuatan PT/CV dan Virtual Office 1 tahun, hemat biaya dengan fasilitas lengkap untuk memulai bisnis
                     </p>
                 </div>
@@ -167,103 +167,103 @@
 </section>
 
 <!-- Why Choose Us Section -->
-<section class="py-24 bg-ivory">
+<section class="py-8 bg-primary-bckg">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-3xl mx-auto text-center mb-16">
-            <h2 class="text-3xl font-bold text-navy sm:text-4xl mb-4">
+            <h2 class="text-3xl font-bold text-primary-text sm:text-4xl mb-4">
                 Mengapa Memilih Kami?
             </h2>
-            <p class="text-lg text-navy-light">
+            <p class="text-lg text-secondary-text">
                 Solusi lengkap untuk kebutuhan kantor dan legalitas bisnis Anda dengan layanan profesional dan lokasi strategis
             </p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             <!-- Feature 1 -->
-            <div class="bg-pattens-blue rounded-xl p-8 hover:shadow-lg hover:scale-105 transition duration-300 group">
-                <div class="w-14 h-14 bg-sky rounded-lg flex items-center justify-center mb-6 group-hover:scale-115 transition duration-300">
-                    <svg class="w-8 h-8 text-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="bg-primary-wcu rounded-xl p-8 hover:shadow-lg hover:scale-105 transition duration-300 group">
+                <div class="bg-icon-wcu w-14 h-14 rounded-lg flex items-center justify-center mb-6 group-hover:scale-115 transition duration-300">
+                    <svg class="w-8 h-8 text-primary-text" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-navy mb-3">Lokasi Strategis</h3>
-                <p class="text-navy-light">Berada di pusat kota dengan akses mudah ke berbagai fasilitas penting dan transportasi publik</p>
+                <h3 class="text-xl font-bold text-secondary-text mb-3">Lokasi Strategis</h3>
+                <p class="text-primary-text">Berada di pusat kota dengan akses mudah ke berbagai fasilitas penting dan transportasi publik</p>
             </div>
 
             <!-- Feature 2 -->
-            <div class="bg-pattens-blue rounded-xl p-8 hover:shadow-lg hover:scale-105 transition duration-300 group">
-                <div class="w-14 h-14 bg-sky rounded-lg flex items-center justify-center mb-6 group-hover:scale-115 transition duration-300">
-                    <svg class="w-8 h-8 text-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="bg-primary-wcu rounded-xl p-8 hover:shadow-lg hover:scale-105 transition duration-300 group">
+                <div class="w-14 bg-icon-wcu h-14 rounded-lg flex items-center justify-center mb-6 group-hover:scale-115 transition duration-300">
+                    <svg class="w-8 h-8 text-primary-text" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-navy mb-3">Pelayanan Professional</h3>
-                <p class="text-navy-light">Tim kami siap membantu dengan pelayanan yang ramah, cepat, dan profesional</p>
+                <h3 class="text-xl font-bold text-secondary-text mb-3">Pelayanan Professional</h3>
+                <p class="text-primary-text">Tim kami siap membantu dengan pelayanan yang ramah, cepat, dan profesional</p>
             </div>
 
             <!-- Feature 3 -->
-            <div class="bg-pattens-blue rounded-xl p-8 hover:shadow-lg hover:scale-105 transition duration-300 group">
-                <div class="w-14 h-14 bg-sky rounded-lg flex items-center justify-center mb-6 group-hover:scale-115 transition duration-300">
-                    <svg class="w-8 h-8 text-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="bg-primary-wcu rounded-xl p-8 hover:shadow-lg hover:scale-105 transition duration-300 group">
+                <div class="w-14 bg-icon-wcu h-14 rounded-lg flex items-center justify-center mb-6 group-hover:scale-115 transition duration-300">
+                    <svg class="w-8 h-8 text-primary-text" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-navy mb-3">Proses Cepat</h3>
-                <p class="text-navy-light">Proses administrasi yang cepat dan efisien untuk menghemat waktu Anda</p>
+                <h3 class="text-xl font-bold text-secondary-text mb-3">Proses Cepat</h3>
+                <p class="text-primary-text">Proses administrasi yang cepat dan efisien untuk menghemat waktu Anda</p>
             </div>
 
             <!-- Feature 4 -->
-            <div class="bg-pattens-blue rounded-xl p-8 hover:shadow-lg hover:scale-105 transition duration-300 group">
-                <div class="w-14 h-14 bg-sky rounded-lg flex items-center justify-center mb-6 group-hover:scale-115 transition duration-300">
-                    <svg class="w-8 h-8 text-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="bg-primary-wcu rounded-xl p-8 hover:shadow-lg hover:scale-105 transition duration-300 group">
+                <div class="w-14 bg-icon-wcu h-14 rounded-lg flex items-center justify-center mb-6 group-hover:scale-115 transition duration-300">
+                    <svg class="w-8 h-8 text-primary-text" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-navy mb-3">Harga Bersaing</h3>
-                <p class="text-navy-light">Penawaran harga yang kompetitif dengan fasilitas dan layanan terbaik</p>
+                <h3 class="text-xl font-bold text-secondary-text mb-3">Harga Bersaing</h3>
+                <p class="text-primary-text">Penawaran harga yang kompetitif dengan fasilitas dan layanan terbaik</p>
             </div>
 
             <!-- Feature 5 -->
-            <div class="bg-pattens-blue rounded-xl p-8 hover:shadow-lg hover:scale-105 transition duration-300 group">
-                <div class="w-14 h-14 bg-sky rounded-lg flex items-center justify-center mb-6 group-hover:scale-115 transition duration-300">
-                    <svg class="w-8 h-8 text-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="bg-primary-wcu rounded-xl p-8 hover:shadow-lg hover:scale-105 transition duration-300 group">
+                <div class="w-14 bg-icon-wcu h-14 rounded-lg flex items-center justify-center mb-6 group-hover:scale-115 transition duration-300">
+                    <svg class="w-8 h-8 text-primary-text" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-navy mb-3">Fasilitas Lengkap</h3>
-                <p class="text-navy-light">Dilengkapi berbagai fasilitas modern untuk menunjang aktivitas bisnis Anda</p>
+                <h3 class="text-xl font-bold text-secondary-text mb-3">Fasilitas Lengkap</h3>
+                <p class="text-primary-text">Dilengkapi berbagai fasilitas modern untuk menunjang aktivitas bisnis Anda</p>
             </div>
 
             <!-- Feature 6 -->
-            <div class="bg-pattens-blue rounded-xl p-8 hover:shadow-lg hover:scale-105 transition duration-300 group">
-                <div class="w-14 h-14 bg-sky rounded-lg flex items-center justify-center mb-6 group-hover:scale-115 transition duration-300">
-                    <svg class="w-8 h-8 text-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="bg-primary-wcu rounded-xl p-8 hover:shadow-lg hover:scale-105 transition duration-300 group">
+                <div class="w-14 bg-icon-wcu h-14 rounded-lg flex items-center justify-center mb-6 group-hover:scale-115 transition duration-300">
+                    <svg class="w-8 h-8 text-primary-text" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-navy mb-3">Keamanan Terjamin</h3>
-                <p class="text-navy-light">Sistem keamanan 24 jam dan perlindungan data untuk ketenangan Anda</p>
+                <h3 class="text-xl font-bold text-secondary-text mb-3">Keamanan Terjamin</h3>
+                <p class="text-primary-text">Sistem keamanan 24 jam dan perlindungan data untuk ketenangan Anda</p>
             </div>
         </div>
     </div>
 </section>
 
 <!-- Latest News Section -->
-<section class="py-24 bg-white-smoke">
+<section class="py-8 bg-primary-bckg">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-3xl mx-auto text-center mb-16">
-            <h2 class="text-3xl font-bold text-navy sm:text-4xl mb-4">
+            <h2 class="text-3xl font-bold text-primary-text sm:text-4xl mb-4">
                 Berita Terbaru
             </h2>
-            <p class="text-lg text-navy-light">
+            <p class="text-lg text-secondary-text">
                 Tetap update dengan informasi terbaru seputar bisnis dan layanan kami
             </p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             <!-- News Card 1 -->
-            <article class="bg-ivory rounded-xl overflow-hidden shadow-md group transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
+            <article class="bg-primary-news rounded-xl overflow-hidden shadow-md group transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
                 <div class="relative">
                     <img src="https://images.unsplash.com/photo-1497366216548-37526070297c" alt="Office" class="w-full h-48 object-cover transition-all duration-300 group-hover:scale-110 opacity-75"/>
                     <div class="absolute top-4 left-4 bg-blue text-ivory text-sm font-semibold px-3 py-1 rounded-full">
@@ -272,10 +272,10 @@
                 </div>
                 <div class="p-6">
                     <time datetime="2025-07-03" class="block text-sm text-gray mb-2">3 Juli 2025</time>
-                    <h3 class="text-xl font-bold text-navy mb-3">
-                        <a href="#" class="hover:text-blue transition">Tips Memilih Virtual Office yang Tepat untuk Startup</a>
+                    <h3 class="text-xl font-bold text-news-title mb-3">
+                        <a href="#" class="hover:text-primary-text transition">Tips Memilih Virtual Office yang Tepat untuk Startup</a>
                     </h3>
-                    <p class="text-navy-light mb-4">
+                    <p class="text-primary-text mb-4">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
                     </p>
                     <a href="#" class="inline-flex items-center text-blue hover:text-steel-blue font-semibold">
@@ -288,7 +288,7 @@
             </article>
 
             <!-- News Card 2 -->
-            <article class="bg-ivory rounded-xl overflow-hidden shadow-md group transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
+            <article class="bg-primary-news rounded-xl overflow-hidden shadow-md group transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
                 <div class="relative">
                     <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" alt="Office" class="w-full h-48 object-cover transition-all duration-300 group-hover:scale-110 opacity-75"/>
                     <div class="absolute top-4 left-4 bg-blue text-ivory text-sm font-semibold px-3 py-1 rounded-full">
@@ -297,10 +297,10 @@
                 </div>
                 <div class="p-6">
                     <time datetime="2025-07-02" class="block text-sm text-gray mb-2">2 Juli 2025</time>
-                    <h3 class="text-xl font-bold text-navy mb-3">
-                        <a href="#" class="hover:text-blue transition">Langkah-langkah Mendirikan PT untuk Pemula</a>
+                    <h3 class="text-xl font-bold text-news-title mb-3">
+                        <a href="#" class="hover:text-primary-text transition">Langkah-langkah Mendirikan PT untuk Pemula</a>
                     </h3>
-                    <p class="text-navy-light mb-4">
+                    <p class="text-primary-text mb-4">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque...
                     </p>
                     <a href="#" class="inline-flex items-center text-blue hover:text-steel-blue font-semibold">
@@ -314,7 +314,7 @@
             
 
             <!-- News Card 3 -->
-            <article class="bg-ivory rounded-xl overflow-hidden shadow-md group transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
+            <article class="bg-primary-news rounded-xl overflow-hidden shadow-md group transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
                 <div class="relative">
                     <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786" alt="Office" class="w-full h-48 object-cover transition-all duration-300 group-hover:scale-110 opacity-75"/>
                     <div class="absolute top-4 left-4 bg-blue text-ivory text-sm font-semibold px-3 py-1 rounded-full">
@@ -323,10 +323,10 @@
                 </div>
                 <div class="p-6">
                     <time datetime="2025-07-01" class="block text-sm text-gray mb-2">1 Juli 2025</time>
-                    <h3 class="text-xl font-bold text-navy mb-3">
-                        <a href="#" class="hover:text-blue transition">5 Keuntungan Menggunakan Shared Office Space</a>
+                    <h3 class="text-xl font-bold text-news-title mb-3">
+                        <a href="#" class="hover:text-primary-text transition">5 Keuntungan Menggunakan Shared Office Space</a>
                     </h3>
-                    <p class="text-navy-light mb-4">
+                    <p class="text-primary-text mb-4">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus placerat fringilla. Duis a elit et dolor...
                     </p>
                     <a href="#" class="inline-flex items-center text-blue hover:text-steel-blue font-semibold">

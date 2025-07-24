@@ -14,6 +14,24 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 
+    --color-primary-heading: #F8F8F8;
+    --color-primary-text: #1A2F4B;
+    --color-secondary-text: #4C7C9C;
+    --color-banner-top: #4C7C9C;
+    --color-dropdown: #F8F8F8;
+    --color-primary-bckg: #F5F5F5;
+
+    --color-primary-card: #F8F8F8; 
+    --color-card-title: #0A1C3F;
+
+    --color-primary-wcu: #E4ECEF;
+    --color-icon-wcu: #CBE4F0;
+
+    --color-primary-news: #F8F8F8;
+    --color-news-title: #0A1C3F; 
+
+    --color-nav-layanan: #F8F8F8;
+
     --color-navy: #0A1C3F;
     --color-navy-light: #1A2F4B;
     --color-steel-blue: #3A5C7E;
@@ -38,28 +56,47 @@
 }
 
   .dark {
-    /* 🎨 Primary Colors */
-  --color-off-white: #F5F5F5;
-  --color-light-gray: #D1D1D1;
-  --color-dark-slate-blue: #2A3B55;
-  --color-ocean-blue: #4C7C9C;
-  --color-slate-blue: #6B8EAD;
-  --color-light-blue: #8BB4D1;
-  --color-medium-gray: #C2C2C2;
-  --color-tan: #D2B48C;
-  --color-almost-black: #121A26;
 
-  /* 🧊 Secondary Colors */
-  --color-divider-gray: #343A40;
-  --color-cool-gray: #2A3038;
-  --color-ice-blue: #1E272F;
-  --color-slate-gray: #2D3235;
-  --color-mint-green: #28533C;
-  --color-sage: #28312A;
-  --color-cream: #2B1F18;
-  --color-rose: #331E22;
-  --color-pearl: #2F2F2B;
-  --color-pure-black: #1E1E1E;
+    --color-primary-heading: #2A3B55;
+    --color-primary-text: #F5F5F5;
+    --color-secondary-text: #8BB4D1;
+    --color-banner-top: #009689;
+    --color-dropdown: #009689;
+    --color-primary-bckg: #1d263b;
+
+    --color-primary-card: #2A3B55;
+    --color-card-title: #D1D1D1;
+
+    --color-primary-wcu: #2A3B55;
+    --color-icon-wcu: #6B8EAD;
+
+    --color-primary-news: #2A3B55;
+    --color-news-title: #8BB4D1;
+
+    --color-nav-layanan: #334766;
+
+    /* 🎨 Primary Colors */
+    --color-off-white: #F5F5F5;
+    --color-light-gray: #D1D1D1;
+    --color-dark-slate-blue: #2A3B55;
+    --color-ocean-blue: #4C7C9C;
+    --color-slate-blue: #6B8EAD;
+    --color-light-blue: #8BB4D1;
+    --color-medium-gray: #C2C2C2;
+    --color-tan: #D2B48C;
+    --color-almost-black: #121A26;
+
+    /* 🧊 Secondary Colors */
+    --color-divider-gray: #343A40;
+    --color-cool-gray: #2A3038;
+    --color-ice-blue: #1E272F;
+    --color-slate-gray: #2D3235;
+    --color-mint-green: #28533C;
+    --color-sage: #28312A;
+    --color-cream: #2B1F18;
+    --color-rose: #331E22;
+    --color-pearl: #2F2F2B;
+    --color-pure-black: #1E1E1E;
 }
 
 /* Base Layouts */

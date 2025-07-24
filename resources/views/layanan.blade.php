@@ -2,7 +2,7 @@
 
 @section('content')
 <!-- Hero Section -->
-<section class="relative layout-primary py-32">
+<section class="relative bg-navy text-ivory py-32">
     <div class="absolute inset-0">
         <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3" alt="Office" class="w-full h-full object-cover opacity-20">
     </div>
@@ -13,41 +13,41 @@
 </section>
 
 <!-- Quick Navigation -->
-<nav class="sticky top-16 layout-alt shadow-md z-40">
+<nav class="bg-nav-layanan sticky top-16 shadow-md z-80">
     <div class="container mx-auto px-4">
         <ul class="flex overflow-x-auto space-x-6 py-4 text-sm md:text-base" x-data="{ activeSection: window.location.hash }">
             <li>
                 <a href="#virtual-office"
-                    class="whitespace-nowrap text-navy-light hover:text-blue transition"
-                    :class="{ 'text-blue font-semibold': activeSection === '#virtual-office' }">
+                    class="whitespace-nowrap text-primary-text hover:text-secondary-text transition"
+                    :class="{ 'text-red font-semibold': activeSection === '#virtual-office' }">
                     Virtual Office
                 </a>
             </li>
             <li>
                 <a href="#private-office"
-                    class="whitespace-nowrap text-navy-light hover:text-blue transition"
-                    :class="{ 'text-blue font-semibold': activeSection === '#private-office' }">
+                    class="whitespace-nowrap text-primary-text hover:text-secondary-text transition"
+                    :class="{ 'text-red font-semibold': activeSection === '#private-office' }">
                     Private Office
                 </a>
             </li>
             <li>
                 <a href="#shared-office"
-                    class="whitespace-nowrap text-navy-light hover:text-blue transition"
-                    :class="{ 'text-blue font-semibold': activeSection === '#shared-office' }">
+                    class="whitespace-nowrap text-primary-text hover:text-secondary-text transition"
+                    :class="{ 'text-red font-semibold': activeSection === '#shared-office' }">
                     Shared Office
                 </a>
             </li>
             <li>
                 <a href="#pembuatan-pt-cv"
-                    class="whitespace-nowrap text-navy-light hover:text-blue transition"
-                    :class="{ 'text-blue font-semibold': activeSection === '#pembuatan-pt-cv' }">
+                    class="whitespace-nowrap text-primary-text hover:text-secondary-text transition"
+                    :class="{ 'text-red font-semibold': activeSection === '#pembuatan-pt-cv' }">
                     Pembuatan PT & CV
                 </a>
             </li>
             <li>
                 <a href="#paket-hemat"
-                    class="whitespace-nowrap text-navy-light hover:text-blue transition"
-                    :class="{ 'text-blue font-semibold': activeSection === '#paket-hemat' }">
+                    class="whitespace-nowrap text-primary-text hover:text-secondary-text transition"
+                    :class="{ 'text-red lay font-semibold': activeSection === '#paket-hemat' }">
                     Paket Hemat
                 </a>
             </li>
@@ -56,13 +56,13 @@
 </nav>
 
 <!-- Virtual Office Section -->
-<section id="virtual-office" class="py-20 bg-white-smoke">
+<section id="virtual-office" class="py-20 bg-primary-bckg">
     <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto">
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div class="order-2 md:order-1">
-                    <h2 class="text-3xl font-bold text-navy mb-6">Virtual Office</h2>
-                    <p class="text-navy-light mb-6">Solusi kantor profesional dengan biaya hemat. Dapatkan alamat bisnis prestisius di pusat kota untuk meningkatkan citra perusahaan Anda.</p>
+                    <h2 class="text-3xl font-bold text-secondary-text mb-6">Virtual Office</h2>
+                    <p class="text-primary-text mb-6">Solusi kantor profesional dengan biaya hemat. Dapatkan alamat bisnis prestisius di pusat kota untuk meningkatkan citra perusahaan Anda.</p>
 
                     <div class="bg-ivory rounded-lg p-6 shadow-lg mb-6">
                         <h3 class="text-xl font-semibold text-blue mb-4">Mulai Dari IDR 400rb/bln</h3>
