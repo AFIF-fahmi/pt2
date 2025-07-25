@@ -17,9 +17,11 @@
     --color-primary-heading: #F8F8F8;
     --color-primary-text: #1A2F4B;
     --color-secondary-text: #4C7C9C;
+    --color-secondary-text-alt: #00A38B;
     --color-banner-top: #4C7C9C;
     --color-dropdown: #F8F8F8;
     --color-primary-bckg: #F5F5F5;
+    --color-secondary-bckg: #F1F1F1;
 
     --color-primary-card: #F8F8F8; 
     --color-card-title: #0A1C3F;
@@ -60,9 +62,11 @@
     --color-primary-heading: #2A3B55;
     --color-primary-text: #F5F5F5;
     --color-secondary-text: #8BB4D1;
+    --color-secondary-text-alt: #14b8a6;
     --color-banner-top: #009689;
     --color-dropdown: #009689;
     --color-primary-bckg: #1d263b;
+    --color-secondary-bckg: #25304B;
 
     --color-primary-card: #2A3B55;
     --color-card-title: #D1D1D1;

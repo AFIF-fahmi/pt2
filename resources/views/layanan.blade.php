@@ -19,14 +19,14 @@
             <li>
                 <a href="#virtual-office"
                     class="whitespace-nowrap text-primary-text hover:text-secondary-text transition"
-                    :class="{ 'text-red font-semibold': activeSection === '#virtual-office' }">
+                    :class="{ 'text-dropdown font-semibold': activeSection === '#virtual-office' }">
                     Virtual Office
                 </a>
             </li>
             <li>
                 <a href="#private-office"
                     class="whitespace-nowrap text-primary-text hover:text-secondary-text transition"
-                    :class="{ 'text-red font-semibold': activeSection === '#private-office' }">
+                    :class="{ 'text-red  font-semibold': activeSection === '#private-office' }">
                     Private Office
                 </a>
             </li>
@@ -64,53 +64,53 @@
                     <h2 class="text-3xl font-bold text-secondary-text mb-6">Virtual Office</h2>
                     <p class="text-primary-text mb-6">Solusi kantor profesional dengan biaya hemat. Dapatkan alamat bisnis prestisius di pusat kota untuk meningkatkan citra perusahaan Anda.</p>
 
-                    <div class="bg-ivory rounded-lg p-6 shadow-lg mb-6">
-                        <h3 class="text-xl font-semibold text-blue mb-4">Mulai Dari IDR 400rb/bln</h3>
+                    <div class="bg-primary-card rounded-lg p-6 shadow-lg mb-6">
+                        <h3 class="text-xl font-semibold text-secondary-text mb-4">Mulai Dari IDR 400rb/bln</h3>
                         <div class="space-y-6">
                             <div>
-                                <h4 class="font-semibold text-gray-800 mb-2">Layanan Unggulan:</h4>
+                                <h4 class="font-semibold text-secondary-text mb-2">Layanan Unggulan:</h4>
                                 <ul class="space-y-3">
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Alamat Bisnis Prestisius di Pusat Kota</span>
+                                        <span class="text-primary-text">Alamat Bisnis Prestisius di Pusat Kota</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Penanganan Surat & Paket dengan Notifikasi Real-time</span>
+                                        <span class="text-primary-text">Penanganan Surat & Paket dengan Notifikasi Real-time</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Resepsionis Profesional untuk Menerima Tamu</span>
+                                        <span class="text-primary-text">Resepsionis Profesional untuk Menerima Tamu</span>
                                     </li>
                                 </ul>
                             </div>
 
                             <div>
-                                <h4 class="font-semibold text-gray-800 mb-2">Fasilitas Tambahan:</h4>
+                                <h4 class="font-semibold text-secondary-text mb-2">Fasilitas Tambahan:</h4>
                                 <ul class="space-y-3">
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Akses Meeting Room 2 Jam/Bulan</span>
+                                        <span class="text-primary-text">Akses Meeting Room 2 Jam/Bulan</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Free WiFi & Fasilitas Pantry</span>
+                                        <span class="text-primary-text">Free WiFi & Fasilitas Pantry</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Gratis Konsultasi Bisnis</span>
+                                        <span class="text-primary-text">Gratis Konsultasi Bisnis</span>
                                     </li>
                                 </ul>
                             </div>
@@ -129,7 +129,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="order-1 md:order-2">
+                <div class="order-1 md:order-2 translate-y-7">
                     <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3" alt="Virtual Office" class="rounded-lg shadow-lg w-full">
                 </div>
             </div>
@@ -138,40 +138,40 @@
 </section>
 
 <!-- Private Office Section -->
-<section id="private-office" class="py-20 bg-white">
+<section id="private-office" class="py-20 bg-secondary-bckg">
     <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto">
             <div class="grid md:grid-cols-2 gap-12 items-center">
-                <div>
+                <div class="translate-y-7">
                     <img src="https://images.unsplash.com/photo-1497215842964-222b430dc094?ixlib=rb-4.0.3" alt="Private Office" class="rounded-lg shadow-lg w-full">
                 </div>
                 <div>
-                    <h2 class="text-3xl font-bold mb-6">Private Office</h2>
-                    <p class="text-gray-600 mb-6">Ruangan kantor private dengan lingkungan kerja yang nyaman dan profesional. Ideal untuk tim yang membutuhkan privasi dan fokus maksimal.</p>
+                    <h2 class="text-secondary-text-alt text-3xl font-bold mb-6">Private Office</h2>
+                    <p class="text-primary-text mb-6">Ruangan kantor private dengan lingkungan kerja yang nyaman dan profesional. Ideal untuk tim yang membutuhkan privasi dan fokus maksimal.</p>
 
-                    <div class="bg-gray-50 rounded-lg p-6 shadow-lg mb-6">
-                        <h3 class="text-xl font-semibold text-teal-600 mb-4">Mulai dari IDR 4jt/bln</h3>
+                    <div class="bg-primary-card rounded-lg p-6 shadow-lg mb-6">
+                        <h3 class="text-xl font-semibold text-secondary-text-alt mb-4">Mulai dari IDR 4jt/bln</h3>
                         <div class="space-y-6">
                             <div>
-                                <h4 class="font-semibold text-gray-800 mb-2">Fasilitas Utama:</h4>
+                                <h4 class="font-semibold text-secondary-text-alt mb-2">Fasilitas Utama:</h4>
                                 <ul class="space-y-3">
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Ruangan Private yang Nyaman</span>
+                                        <span class="text-primary-text">Ruangan Private yang Nyaman</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Akses 24/7 dengan Keamanan</span>
+                                        <span class="text-primary-text">Akses 24/7 dengan Keamanan</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Furnitur Lengkap (Meja, Kursi Ergonomis)</span>
+                                        <span class="text-primary-text">Furnitur Lengkap (Meja, Kursi Ergonomis)</span>
                                     </li>
                                 </ul>
                             </div>
@@ -183,19 +183,19 @@
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Internet Fiber Optic</span>
+                                        <span class="text-primary-text">Internet Fiber Optic</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Meeting Room 8 Jam/Bulan</span>
+                                        <span class="text-primary-text">Meeting Room 8 Jam/Bulan</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Utility & Cleaning Service</span>
+                                        <span class="text-primary-text">Utility & Cleaning Service</span>
                                     </li>
                                 </ul>
                             </div>
@@ -207,7 +207,7 @@
                             Hubungi Kami
                             <span><i class="fa-solid fa-phone translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
                         </a>
-                        <a href="#" class="group inline-block bg-white text-teal-600 px-8 py-3 rounded-lg hover:bg-gray-50 transition border-2 border-teal-600">
+                        <a href="#" class="group inline-block bg-white text-teal-600 px-8 py-3 rounded-lg hover:bg-primary-card transition border-2 border-teal-600">
                             Lihat Price List
                             <span><i class="fa-solid fa-coins translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
                         </a>
@@ -219,61 +219,61 @@
 </section>
 
 <!-- Shared Office Section -->
-<section id="shared-office" class="py-20 bg-white-smoke">
+<section id="shared-office" class="py-20 bg-primary-bckg">
     <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto">
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div class="order-2 md:order-1">
-                    <h2 class="text-3xl font-bold text-navy mb-6">Shared Office</h2>
-                    <p class="text-navy-light mb-6">Solusi ekonomis untuk startup dan freelancer dengan full akses ke fasilitas kantor dan komunitas bisnis yang dinamis.</p>
+                    <h2 class="text-3xl font-bold text-secondary-text mb-6">Shared Office</h2>
+                    <p class="text-primary-text mb-6">Solusi ekonomis untuk startup dan freelancer dengan full akses ke fasilitas kantor dan komunitas bisnis yang dinamis.</p>
 
-                    <div class="bg-ivory rounded-lg p-6 shadow-lg mb-6">
-                        <h3 class="text-xl font-semibold text-blue mb-4">Mulai dari IDR 1jt/bln</h3>
+                    <div class="bg-primary-card rounded-lg p-6 shadow-lg mb-6">
+                        <h3 class="text-xl font-semibold text-secondary-text mb-4">Mulai dari IDR 1jt/bln</h3>
                         <div class="space-y-6">
                             <div>
-                                <h4 class="font-semibold text-gray-800 mb-2">Yang Anda Dapatkan:</h4>
+                                <h4 class="font-semibold text-secondary-text mb-2">Yang Anda Dapatkan:</h4>
                                 <ul class="space-y-3">
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Workspace Fleksibel dengan Hot Desk</span>
+                                        <span class="text-primary-text">Workspace Fleksibel dengan Hot Desk</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Akses ke Meeting Room 4 Jam/Bulan</span>
+                                        <span class="text-primary-text">Akses ke Meeting Room 4 Jam/Bulan</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">High Speed Internet & Printing</span>
+                                        <span class="text-primary-text">High Speed Internet & Printing</span>
                                     </li>
                                 </ul>
                             </div>
 
                             <div>
-                                <h4 class="font-semibold text-gray-800 mb-2">Benefit Tambahan:</h4>
+                                <h4 class="font-semibold text-secondary-text mb-2">Benefit Tambahan:</h4>
                                 <ul class="space-y-3">
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Akses ke Networking Events</span>
+                                        <span class="text-primary-text">Akses ke Networking Events</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Pantry & Lounge Area</span>
+                                        <span class="text-primary-text">Pantry & Lounge Area</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Business Locker (Opsional)</span>
+                                        <span class="text-primary-text">Business Locker (Opsional)</span>
                                     </li>
                                 </ul>
                             </div>
@@ -291,7 +291,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="order-1 md:order-2">
+                <div class="order-1 md:order-2 translate-y-7">
                     <img src="https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?ixlib=rb-4.0.3" alt="Shared Office" class="rounded-lg shadow-lg w-full">
                 </div>
             </div>
@@ -300,64 +300,64 @@
 </section>
 
 <!-- Pembuatan PT & CV Section -->
-<section id="pembuatan-pt-cv" class="py-20 bg-white">
+<section id="pembuatan-pt-cv" class="py-20 bg-secondary-bckg">
     <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto">
             <div class="grid md:grid-cols-2 gap-12 items-center">
-                <div>
+                <div class="translate-y-7">
                     <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3" alt="Pembuatan PT CV" class="rounded-lg shadow-lg w-full">
                 </div>
                 <div>
-                    <h2 class="text-3xl font-bold mb-6">Pembuatan PT & CV</h2>
-                    <p class="text-gray-600 mb-6">Layanan pendirian perusahaan lengkap dengan pendampingan profesional. Proses cepat dan legal untuk memulai bisnis Anda.</p>
+                    <h2 class="text-3xl text-secondary-text-alt font-bold mb-6">Pembuatan PT & CV</h2>
+                    <p class="text-primary-text mb-6">Layanan pendirian perusahaan lengkap dengan pendampingan profesional. Proses cepat dan legal untuk memulai bisnis Anda.</p>
 
-                    <div class="bg-gray-50 rounded-lg p-6 shadow-lg mb-6">
-                        <h3 class="text-xl font-semibold text-teal-600 mb-4">Mulai dari IDR 3,5jt</h3>
+                    <div class="bg-primary-card rounded-lg p-6 shadow-lg mb-6">
+                        <h3 class="text-xl font-semibold text-secondary-text-alt mb-4">Mulai dari IDR 3,5jt</h3>
                         <div class="space-y-6">
                             <div>
-                                <h4 class="font-semibold text-gray-800 mb-2">Layanan Pendirian:</h4>
+                                <h4 class="font-semibold text-secondary-text-alt mb-2">Layanan Pendirian:</h4>
                                 <ul class="space-y-3">
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Pembuatan Akta Pendirian oleh Notaris</span>
+                                        <span class="text-primary-text">Pembuatan Akta Pendirian oleh Notaris</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Pengurusan NIB & Izin Usaha</span>
+                                        <span class="text-primary-text">Pengurusan NIB & Izin Usaha</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">NPWP Badan & SKT Pajak</span>
+                                        <span class="text-primary-text">NPWP Badan & SKT Pajak</span>
                                     </li>
                                 </ul>
                             </div>
 
                             <div>
-                                <h4 class="font-semibold text-gray-800 mb-2">Keunggulan:</h4>
+                                <h4 class="font-semibold text-secondary-text-alt mb-2">Keunggulan:</h4>
                                 <ul class="space-y-3">
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Konsultasi Gratis</span>
+                                        <span class="text-primary-text">Konsultasi Gratis</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Proses Cepat (7-14 hari kerja)</span>
+                                        <span class="text-primary-text">Proses Cepat (7-14 hari kerja)</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Pendampingan Penuh</span>
+                                        <span class="text-primary-text">Pendampingan Penuh</span>
                                     </li>
                                 </ul>
                             </div>
@@ -369,7 +369,7 @@
                             Hubungi Kami
                             <span><i class="fa-solid fa-phone translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
                         </a>
-                        <a href="#" class="group inline-block bg-white text-teal-600 px-8 py-3 rounded-lg hover:bg-gray-50 transition border-2 border-teal-600">
+                        <a href="#" class="group inline-block bg-white text-teal-600 px-8 py-3 rounded-lg hover:bg-primary-card transition border-2 border-teal-600">
                             Lihat Price List
                             <span><i class="fa-solid fa-coins translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
                         </a>
@@ -381,61 +381,61 @@
 </section>
 
 <!-- Paket Hemat Section -->
-<section id="paket-hemat" class="py-20 bg-white-smoke">
+<section id="paket-hemat" class="py-20 bg-primary-bckg">
     <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto">
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div class="order-2 md:order-1">
-                    <h2 class="text-3xl font-bold text-navy mb-6">Paket Hemat</h2>
-                    <p class="text-navy-light mb-6">Kombinasi lengkap Virtual Office dan Pendirian PT/CV dengan harga spesial. Hemat hingga 30% dengan paket bundling.</p>
+                    <h2 class="text-3xl font-bold text-secondary-text mb-6">Paket Hemat</h2>
+                    <p class="text-primary-text mb-6">Kombinasi lengkap Virtual Office dan Pendirian PT/CV dengan harga spesial. Hemat hingga 30% dengan paket bundling.</p>
 
-                    <div class="bg-white rounded-lg p-6 shadow-lg mb-6">
-                        <h3 class="text-xl font-semibold text-blue mb-4">Mulai dari IDR 7,5jt</h3>
+                    <div class="bg-primary-card rounded-lg p-6 shadow-lg mb-6">
+                        <h3 class="text-xl font-semibold text-secondary-text mb-4">Mulai dari IDR 7,5jt</h3>
                         <div class="space-y-6">
                             <div>
-                                <h4 class="font-semibold text-gray-800 mb-2">Paket Termasuk:</h4>
+                                <h4 class="font-semibold text-secondary-text mb-2">Paket Termasuk:</h4>
                                 <ul class="space-y-3">
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Pendirian PT/CV Lengkap</span>
+                                        <span class="text-primary-text">Pendirian PT/CV Lengkap</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Virtual Office 1 Tahun</span>
+                                        <span class="text-primary-text">Virtual Office 1 Tahun</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Meeting Room 4 Jam/Bulan</span>
+                                        <span class="text-primary-text">Meeting Room 4 Jam/Bulan</span>
                                     </li>
                                 </ul>
                             </div>
 
                             <div>
-                                <h4 class="font-semibold text-gray-800 mb-2">Bonus Spesial:</h4>
+                                <h4 class="font-semibold text-secondary-text mb-2">Bonus Spesial:</h4>
                                 <ul class="space-y-3">
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Gratis Konsultasi Pajak</span>
+                                        <span class="text-primary-text">Gratis Konsultasi Pajak</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Akses Business Lounge</span>
+                                        <span class="text-primary-text">Akses Business Lounge</span>
                                     </li>
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                         </svg>
-                                        <span class="text-gray-700">Hemat 30% dari Harga Normal</span>
+                                        <span class="text-primary-text">Hemat 30% dari Harga Normal</span>
                                     </li>
                                 </ul>
                             </div>
@@ -453,7 +453,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="order-1 md:order-2">
+                <div class="order-1 md:order-2 translate-y-7">
                     <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3" alt="Paket Hemat" class="rounded-lg shadow-lg w-full">
                 </div>
             </div>
@@ -477,7 +477,6 @@
 @endsection
 
 <script>
-    // Scroll otomatis ke section yang dikirim dari controller
     document.addEventListener('DOMContentLoaded', function() {
         const section = @json($section);
         if (section) {
