@@ -2,7 +2,7 @@
 
 @section('content')
 <!-- Hero Section -->
-<section class="relative bg-navy text-ivory py-32">
+<section class="relative bg-banner-header text-ivory py-32">
     <div class="absolute inset-0">
         <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3" alt="Office" class="w-full h-full object-cover opacity-20">
     </div>

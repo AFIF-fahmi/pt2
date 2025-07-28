@@ -4,41 +4,38 @@
 <link rel="stylesheet" href="{{ asset('css/galeri.css') }}">
 
 <!-- Hero Section -->
-<section class="relative bg-navy text-ivory py-32">
+<section class="relative bg-banner-header text-primary-text py-32">
   <div class="absolute inset-0">
     <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=1200&q=80" alt="Galeri Kantor" class="h-full w-full object-cover opacity-20" />
   </div>
   <div class="relative container mx-auto px-8">
-    <h1 class="text-4xl md:text-5xl font-bold mb-6">Galeri</h1>
-    <p class="text-xl text-light max-w-2xl">Kumpulan dokumentasi suasana kantor, ruang meeting, dan fasilitas kami.</p>
+    <h1 class="text-white text-4xl md:text-5xl font-bold mb-6">Galeri</h1>
+    <p class="text-xl text-white max-w-2xl">Kumpulan dokumentasi suasana kantor, ruang meeting, dan fasilitas kami.</p>
   </div>
 </section>
 
 <!-- Galeri Grid Section -->
-<section>
-  <div class="mx-auto max-w-screen-md px-4 py-8 sm:px-6 sm:py-12 lg:px-8 my-[10px]">
+<section class="bg-primary-bckg">
+  <div class=" px-4 sm:px-6 sm:py-12 lg:px-8 my-[10px]">
     <div class="text-center my-[10px]">
-      <br>
-      <br>
-      <br>
-      <h2 class="text-xl font-bold text-gray-900 sm:text-3xl">Product Collection</h2>
 
-      <p class="mx-auto mt-4 max-w-md text-gray-500 my-[10px]">
+      <h2 class="text-xl font-bold text-primary-text sm:text-3xl">Product Collection</h2>
+
+      <p class="mx-auto mt-4 max-w-md text-secondary-text my-[10px]">
         Berikut adalah koleksi dokumentasi suasana kantor dan fasilitas terbaik yang kami miliki untuk mendukung produktivitas Anda.
       </p>
       <br>
       <br>
     </div>
 
-    <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-7xl mx-auto">
+    <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-[10px] mx-[10px]" style="grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));">
       <li>
         <a href="https://images.unsplash.com/photo-1462826303086-329426d1aef5" class="group block overflow-hidden" data-lightbox="galeri" data-index="0">
           <img
             src="https://images.unsplash.com/photo-1462826303086-329426d1aef5"
             alt=""
-            class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[350px] rounded-xl" />
-
-
+            class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[350px] rounded-xl" 
+            />
           <p class="text-xl font-bold text-gray-700">
             Ruangan 1
           </p>
@@ -106,7 +103,7 @@
     <br>
     <br>
     <br>
-    <br>  
+    <br>
   </div>
 </section>
 

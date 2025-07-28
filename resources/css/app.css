@@ -22,6 +22,7 @@
     --color-dropdown: #F8F8F8;
     --color-primary-bckg: #F5F5F5;
     --color-secondary-bckg: #F1F1F1;
+    --color-banner-header: #0a1c3f;
 
     --color-primary-card: #F8F8F8; 
     --color-card-title: #0A1C3F;
@@ -33,6 +34,7 @@
     --color-news-title: #0A1C3F; 
 
     --color-nav-layanan: #F8F8F8;
+    
 
     --color-navy: #0A1C3F;
     --color-navy-light: #1A2F4B;
@@ -67,6 +69,7 @@
     --color-dropdown: #009689;
     --color-primary-bckg: #1d263b;
     --color-secondary-bckg: #25304B;
+    --color-banner-header: #009689;
 
     --color-primary-card: #2A3B55;
     --color-card-title: #D1D1D1;
