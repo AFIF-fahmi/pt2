@@ -1,10 +1,5 @@
 @import 'tailwindcss';
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
 @source '../**/*.blade.php';
@@ -56,11 +51,9 @@
     --color-beige: #F0EFE7;
     --color-ivory: #F8F8F8;
     --color-pattens-blue: #E4ECEF;
-
 }
 
-  .dark {
-
+.dark {
     --color-primary-heading: #2A3B55;
     --color-primary-text: #F5F5F5;
     --color-secondary-text: #8BB4D1;
