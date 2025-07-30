@@ -16,14 +16,5 @@ export default defineConfig({
     build: {
         outDir: 'public/build',
         emptyOutDir: true,
-        manifest: true,
-        rollupOptions: {
-            output: {
-                manualChunks: undefined,
-            }
-        }
     },
-    css: {
-        postcss: {}
-    }
 });
