@@ -38,7 +38,7 @@
               alt=""
               class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[350px] rounded-xl" />
           </div>
-          <p class="text-xl font-bold text-gray-700">Ruangan 1</p>
+          <p class="text-xl font-bold text-secondary-text">Ruangan 1</p>
 
           <p class="mt-2">
             <span class="sr-only"> Regular Price </span>
@@ -56,7 +56,7 @@
               alt=""
               class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[350px] rounded-xl" />
           </div>
-          <p class="text-xl font-bold text-gray-700">Ruangan 2</p>
+          <p class="text-xl font-bold text-secondary-text">Ruangan 2</p>
 
           <p class="mt-2">
             <span class="sr-only"> Regular Price </span>
@@ -75,7 +75,7 @@
               class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[350px] rounded-xl" />
           </div>
 
-          <p class="text-xl font-bold text-gray-700">Ruangan 3</p>
+          <p class="text-xl font-bold text-secondary-text">Ruangan 3</p>
 
           <p class="mt-2">
             <span class="sr-only"> Regular Price </span>
@@ -94,7 +94,7 @@
               class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[350px] rounded-xl" />
           </div>
 
-          <p class="text-xl font-bold text-gray-700">Ruangan 4</p>
+          <p class="text-xl font-bold text-secondary-text">Ruangan 4</p>
           <p class="mt-2">
             <span class="sr-only"> Regular Price </span>
           </p>

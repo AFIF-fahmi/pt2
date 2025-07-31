@@ -11,9 +11,9 @@
     <section class="bg-primary-bckg>
         <div class=" container mx-auto px-4">
         <!-- Map Container -->
-        <div class="bg-white translate-y-4 card-base shadow-lg overflow-hidden">
+        <div class="bg-white translate-y-4 card-base shadow-2xl/20 overflow-hidden my-6">
             <div class="font-bold text-3xl items-center justify-between bg-primary-card text-ivory px-6 py-6 rounded-t-lg">
-                <p class="text-center">Lokasi Kami</p>
+                <p class="text-center text-primary-text">Lokasi Kami</p>
             </div>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3957.295403345756!2d112.7312363!3d-7.3206774!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e48893dffefd%3A0x774941139bb587ac!2sGraha%20Office!5e0!3m2!1sid!2sid!4v1753766164015!5m2!1sid!2sid"
@@ -31,7 +31,7 @@
 
     <!-- Contact Form Section -->
     <section class="py-4">
-        <div class="bg-primary-card rounded-xl max-w-3xl mx-auto p-8">
+        <div class="bg-primary-card rounded-xl max-w-3xl mx-auto p-8 shadow-2xl/20">
             <h2 class="text-3xl font-bold text-primary-text text-center mb-8">Hubungi Kami</h2>
 
             <form id="contactForm" class="space-y-6" onsubmit="return validateForm(event)">
