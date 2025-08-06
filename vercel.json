@@ -7,6 +7,13 @@
       "runtime": "vercel-php@0.7.1"
     }
   },
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "dist" }
+    }
+  ],
   "routes": [
     {
       "src": "/build/(.*)",
@@ -19,6 +26,10 @@
     {
       "src": "/(.*)",
       "dest": "/api/index.php"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ],
   "env": {
@@ -41,4 +52,4 @@
     "DB_DATABASE": "db2024_stormtorn",
     "DB_USERNAME": "db2024_stormtorn"
   }
-} 
+}
