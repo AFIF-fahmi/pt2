@@ -37,7 +37,7 @@
   <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
     <div class="flex h-16 items-center justify-between">
       <div class="md:flex md:items-center md:gap-12">
-        <a class="block text-2xl font-bold text-teal-600" href="{{ url('/beranda') }}">
+        <a class="block text-2xl font-bold text-banner-top" href="{{ url('/beranda') }}">
           <span class="sr-only">Home</span>
           <!-- Logo -->
           GRAHA OFFICE
@@ -184,7 +184,7 @@
           x-transition:leave="transition ease-in duration-150"
           x-transition:leave-start="opacity-100 scale-100"
           x-transition:leave-end="opacity-0 scale-95"
-          class="md:hidden fixed inset-0 z-[1100] bg-ivory"
+          class="md:hidden fixed inset-0 z-[1100] bg-primary-bckg"
           x-cloak>
           <div class="p-4">
             <div class="flex items-center justify-between">
@@ -294,7 +294,7 @@
       <!-- Mobile menu -->
       <div class="md:hidden" x-show="open" x-transition x-cloak>
         <nav class="fixed inset-0 z-[1100] bg-sage">
-          <div class="p-4">
+          <div class="p-4 bg-primary-bckg">
             <div class="flex items-center justify-between">
               <a href="{{ url('/beranda') }}" class="text-blue">
                 <span class="sr-only">Home</span>

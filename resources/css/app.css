@@ -19,6 +19,8 @@
     --color-secondary-bckg: #F1F1F1;
     --color-banner-header: #0a1c3f;
 
+    --color-beranda-title: #2E4567;
+
     --color-primary-card: #F8F8F8; 
     --color-card-title: #0A1C3F;
 
@@ -30,6 +32,9 @@
     --color-news-read: #0A1C3F;
 
     --color-nav-layanan: #F8F8F8;
+
+    --color-footer-icon: #4C7C9C;
+    --color-footer-secondary-icon: ##3D637D;
     
 
     --color-navy: #0A1C3F;
@@ -65,6 +70,8 @@
     --color-secondary-bckg: #25304B;
     --color-banner-header: #009689;
 
+    --color-beranda-title: #14b8a6;
+
     --color-primary-card: #2A3B55;
     --color-card-title: #D1D1D1;
 
@@ -76,6 +83,9 @@
     --color-news-read: #8BB4D1;
 
     --color-nav-layanan: #334766;
+
+    --color-footer-icon: #009689;
+    --color-footer-secondary-icon: #00786E;
 
     /* 🎨 Primary Colors */
     --color-off-white: #F5F5F5;
@@ -101,88 +111,8 @@
     --color-pure-black: #1E1E1E;
 }
 
-/* Base Layouts */
-.layout-primary {
-    @apply bg-[var(--color-primary-heading)] text-[var(--color-card-background)];
-}
-
-.layout-secondary {
-    @apply bg-[var(--color-background)] text-[var(--color-primary-heading)];
-}
-
-.layout-alt {
-    @apply bg-[var(--color-card-background)] text-[var(--color-primary-heading)];
-}
-
-/* Cards */
-.card-base {
-    @apply bg-[var(--color-card-background)] rounded-xl shadow-md hover:shadow-xl transition duration-300;
-}
-
-/* Text Styles */
-.text-primary-heading {
-    color: var(--color-primary-heading);
-}
-
-.text-secondary-heading {
-    color: var(--color-secondary-heading);
-}
-
-.text-body {
-    color: var(--color-text-body);
-}
-
-.text-light {
-    color: var(--color-background-alt);
-}
-
-.bg-primary {
-    background-color: var(--color-primary-heading);
-}
-
-.bg-secondary {
-    background-color: var(--color-secondary-heading);
-}
-
-.bg-base {
-    background-color: var(--color-background);
-}
-
-.bg-card {
-    background-color: var(--color-card-background);
-}
-
-/* Buttons */
-.btn-primary {
-    background-color: var(--color-button-primary);
-    color: var(--color-card-background);
-}
-.btn-primary:hover {
-    background-color: var(--color-border);
-}
-
-.btn-secondary {
-    background-color: var(--color-button-secondary);
-    color: var(--color-card-background);
-}
-.btn-secondary:hover {
-    background-color: var(--color-hover);
-}
-
-/* Base Layouts */
-.layout-primary {
-    background-color: var(--color-primary-heading);
-    color: var(--color-card-background);
-}
-
-.layout-secondary {
-    background-color: var(--color-background);
-    color: var(--color-primary-heading);
-}
-
-.layout-alt {
-    background-color: var(--color-card-background);
-    color: var(--color-primary-heading);
+div {
+    border: solid 1px transparent;
 }
 
 /* Cards */

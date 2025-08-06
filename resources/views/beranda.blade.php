@@ -6,19 +6,19 @@
 <section class="relative h-screen flex items-center">
     <div class="absolute inset-0">
         <img
-            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3"
+            src="https://grahaoffice.com/wp-content/uploads/2022/11/Ruang-Graha-Office-18-scaled-1.jpg"
             alt="Modern Office Building"
             class="h-full w-full object-cover"
         />
         <!-- Dark overlay for better text visibility -->
-        <div class="absolute inset-0 bg-navy/40"></div>
+        <div class="absolute inset-0 bg-blue-950/60"></div>
     </div>
 
     <div class="relative z-10 mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div class="max-w-xl">
             <h1 class="text-4xl font-bold text-ivory sm:text-5xl">
                 GRAHA
-                <span class="text-blue-soft">OFFICE</span>
+                <span class="text-beranda-title">OFFICE</span>
             </h1>
 
             <p class="mt-4 text-lg text-pretty text-beige sm:text-xl">
@@ -31,7 +31,7 @@
                 class="inline-block rounded-lg bg-blue px-8 py-4 text-base font-semibold text-ivory focus:outline-none focus:ring focus:ring-[#] hover-btn1">
                     Hubungi Kami
                 </a>
-
+                
                 <a href="#layanan-beranda" class="hover-btn2 inline-block rounded-lg bg-ivory/10 backdrop-blur px-8 py-4 text-base font-semibold text-ivory transition border-2 border-ivory focus:outline-none focus:ring focus:ring-blue-soft">
                     Layanan Kami
                 </a>
