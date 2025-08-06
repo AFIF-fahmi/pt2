@@ -7,21 +7,21 @@
             "config": {
                 "distDir": "public/build"
             }
-        },
-        {
-            "src": "api/**/*.php",
-            "use": "@vercel/php"
         }
     ],
     "routes": [
         { "src": "/build/(.*)", "dest": "/build/$1" },
         {
-            "src": "/(.*\\.(css|js|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot|json|map))",
+            "src": "/(.*.(css|js|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot|json|map))",
             "dest": "/$1"
         },
-        { "src": "/api/(.*)", "dest": "/api/$1" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
+    "functions": {
+        "api/*.php": {
+            "runtime": "vercel-php@0.7.1"
+        }
+    },
     "env": {
         "APP_NAME": "Laravel",
         "APP_ENV": "production",
