@@ -13,11 +13,15 @@
     --color-primary-text: #1A2F4B;
     --color-secondary-text: #4C7C9C;
     --color-secondary-text-alt: #00A38B;
-    --color-banner-top: #4C7C9C;
+
     --color-dropdown: #F8F8F8;
     --color-primary-bckg: #F5F5F5;
     --color-secondary-bckg: #F1F1F1;
+
     --color-banner-header: #0a1c3f;
+    --color-banner-top: #4C7C9C;
+    --color-banner-text: #1A2F4B;
+    --color-banner-text-alt: #F5F5F5;
 
     --color-beranda-title: #2E4567;
 
@@ -35,28 +39,10 @@
 
     --color-footer-icon: #4C7C9C;
     --color-footer-secondary-icon: ##3D637D;
-    
 
-    --color-navy: #0A1C3F;
-    --color-navy-light: #1A2F4B;
-    --color-steel-blue: #3A5C7E;
-    --color-blue: #4C7C9C;
-    --color-blue-light: #6B8EAD;
-    --color-blue-soft: #8BB4D1;
-    --color-gray: #A0A0A0;
-    --color-tan: #D2B48C;
-    --color-white-smoke: #F5F5F5;
-    --color-gray-light: #AEB3B5;
-    --color-gray-medium: #C2C7C9;
-    --color-sky: #CBE4F0;
-    --color-gray-pale: #D3D8DB;
-    --color-green-light: #D6EAD7;
-    --color-sage: #E1E9E5;
-    --color-sand: #E6E1D8;
-    --color-pink-light: #EBD7D9;
-    --color-beige: #F0EFE7;
-    --color-ivory: #F8F8F8;
-    --color-pattens-blue: #E4ECEF;
+    /* button */
+    --color-btn1: #2A3B55;
+    --color-btn1-t: #F5F5F5;
 }
 
 .dark {
@@ -64,11 +50,15 @@
     --color-primary-text: #F5F5F5;
     --color-secondary-text: #8BB4D1;
     --color-secondary-text-alt: #14b8a6;
-    --color-banner-top: #009689;
+
     --color-dropdown: #009689;
     --color-primary-bckg: #1d263b;
     --color-secondary-bckg: #25304B;
+
     --color-banner-header: #009689;
+    --color-banner-top: #009689;
+    --color-banner-text: #F5F5F5;
+    --color-banner-text-alt: #1d263b;
 
     --color-beranda-title: #14b8a6;
 
@@ -87,96 +77,22 @@
     --color-footer-icon: #009689;
     --color-footer-secondary-icon: #00786E;
 
-    /* 🎨 Primary Colors */
-    --color-off-white: #F5F5F5;
-    --color-light-gray: #D1D1D1;
-    --color-dark-slate-blue: #2A3B55;
-    --color-ocean-blue: #4C7C9C;
-    --color-slate-blue: #6B8EAD;
-    --color-light-blue: #8BB4D1;
-    --color-medium-gray: #C2C2C2;
-    --color-tan: #D2B48C;
-    --color-almost-black: #121A26;
-
-    /* 🧊 Secondary Colors */
-    --color-divider-gray: #343A40;
-    --color-cool-gray: #2A3038;
-    --color-ice-blue: #1E272F;
-    --color-slate-gray: #2D3235;
-    --color-mint-green: #28533C;
-    --color-sage: #28312A;
-    --color-cream: #2B1F18;
-    --color-rose: #331E22;
-    --color-pearl: #2F2F2B;
-    --color-pure-black: #1E1E1E;
+    /* button */
+    --color-btn1: #00786E;
+    --color-btn1-t: #F5F5F5;
 }
 
 div {
     border: solid 1px transparent;
 }
 
-/* Cards */
-.card-base {
-    background-color: var(--color-card-background);
-    border-radius: 0.75rem;
-    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
-    transition: all 300ms;
-}
-.card-base:hover {
-    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
-}
-
-/* Text Styles */
-.text-body {
-    color: var(--color-text-body);
-}
-
-.text-heading {
-    color: var(--color-primary-heading);
-}
-
-.text-subheading {
-    color: var(--color-secondary-heading);
-}
-
-.text-light {
-    color: var(--color-background-alt);
-}
-
-/* Buttons */
-.btn-primary {
-    background-color: var(--color-button-primary);
-    color: var(--color-card-background);
-    transition: background-color 300ms;
-}
-.btn-primary:hover {
-    background-color: var(--color-border);
-}
-
-.btn-secondary {
-    background-color: var(--color-button-secondary);
-    color: var(--color-card-background);
-    transition: background-color 300ms;
-}
-.btn-secondary:hover {
-    background-color: var(--color-hover);
-}
-
-.hover-btn1 {
-    transition: all 300ms;
-}
-.hover-btn1:hover {
-    background-color: transparent;
-    border: 2px solid var(--color-card-background);
-    backdrop-filter: blur(4px);
-}
-
-.hover-btn2 {
-    transition: all 300ms;
-}
-.hover-btn2:hover {
-    background-color: var(--color-button-primary);
-    backdrop-filter: none;
-    border: none;
-    box-shadow: none;
+/* Button style */
+.btn-1 {
+    @apply 
+    rounded-lg px-8 py-4 
+    text-btn1-t
+    bg-btn1 hover:bg-btn1/50
+    hover:backdrop-blur-sm hover:border-2 hover:border-white
+    focus:outline-none focus:ring focus:ring-[#]
+    transition duration-300;
 }

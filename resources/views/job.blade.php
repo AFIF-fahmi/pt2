@@ -45,7 +45,7 @@
                 <!-- Apply Button -->
                 <div class="flex flex-col items-center space-y-8 border-t-2 border-blue pt-4">
                     <p class="text-secondary-text font-semibold text-center">Untuk submit lamaran bisa melalui Google Form berikut:</p>
-                    <a href="https://forms.gle/your-google-form-link" target="_blank" class="inline-flex items-center px-8 py-3 text-base font-semibold text-ivory bg-blue rounded-lg hover:bg-steel-blue transition duration-300">
+                    <a href="https://forms.gle/your-google-form-link" target="_blank" class="inline-flex items-center px-8 py-3 text-base font-semibold text-primary-text bg-blue rounded-lg hover:bg-steel-blue transition duration-300">
                         Apply Sekarang
                         <svg class="w-5 h-5 ml-2 opacity-0 translate-x-8 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
@@ -82,7 +82,7 @@
                 <!-- Apply Button -->
                 <div class="flex flex-col items-center space-y-8 border-t-2 border-blue pt-4">
                     <p class="text-secondary-text font-semibold text-center">Untuk submit lamaran bisa melalui Google Form berikut:</p>
-                    <a href="https://forms.gle/your-google-form-link" target="_blank" class="inline-flex items-center px-8 py-3 text-base font-semibold text-ivory bg-blue rounded-lg hover:bg-steel-blue transition duration-300">
+                    <a href="https://forms.gle/your-google-form-link" target="_blank" class="inline-flex items-center px-8 py-3 text-base font-semibold text-primary-text bg-blue rounded-lg hover:bg-steel-blue transition duration-300">
                         Apply Sekarang
                         <svg class="w-5 h-5 ml-2 opacity-0 translate-x-8 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
@@ -119,7 +119,7 @@
                 <!-- Apply Button -->
                 <div class="flex flex-col items-center space-y-8 border-t-2 border-blue pt-4">
                     <p class="text-secondary-text font-semibold text-center">Untuk submit lamaran bisa melalui Google Form berikut:</p>
-                    <a href="https://forms.gle/your-google-form-link" target="_blank" class="inline-flex items-center px-8 py-3 text-base font-semibold text-ivory bg-blue rounded-lg hover:bg-steel-blue transition duration-300">
+                    <a href="https://forms.gle/your-google-form-link" target="_blank" class="inline-flex items-center px-8 py-3 text-base font-semibold text-primary-text bg-blue rounded-lg hover:bg-steel-blue transition duration-300">
                         Apply Sekarang
                         <svg class="w-5 h-5 ml-2 opacity-0 translate-x-8 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
@@ -156,7 +156,7 @@
                 <!-- Apply Button -->
                 <div class="flex flex-col items-center space-y-8 border-t-2 border-blue pt-4">
                     <p class="text-secondary-text font-semibold text-center">Untuk submit lamaran bisa melalui Google Form berikut:</p>
-                    <a href="https://forms.gle/your-google-form-link" target="_blank" class="inline-flex items-center px-8 py-3 text-base font-semibold text-ivory bg-blue rounded-lg hover:bg-steel-blue transition duration-300">
+                    <a href="https://forms.gle/your-google-form-link" target="_blank" class="inline-flex items-center px-8 py-3 text-base font-semibold text-primary-text bg-blue rounded-lg hover:bg-steel-blue transition duration-300">
                         Apply Sekarang
                         <svg class="w-5 h-5 ml-2 opacity-0 translate-x-8 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
@@ -193,7 +193,7 @@
                 <!-- Apply Button -->
                 <div class="flex flex-col items-center space-y-8 border-t-2 border-blue pt-4">
                     <p class="text-secondary-text font-semibold text-center">Untuk submit lamaran bisa melalui Google Form berikut:</p>
-                    <a href="https://forms.gle/your-google-form-link" target="_blank" class="inline-flex items-center px-8 py-3 text-base font-semibold text-ivory bg-blue rounded-lg hover:bg-steel-blue transition duration-300">
+                    <a href="https://forms.gle/your-google-form-link" target="_blank" class="inline-flex items-center px-8 py-3 text-base font-semibold text-primary-text bg-blue rounded-lg hover:bg-steel-blue transition duration-300">
                         Apply Sekarang
                         <svg class="w-5 h-5 ml-2 opacity-0 translate-x-8 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
@@ -230,7 +230,7 @@
                 <!-- Apply Button -->
                 <div class="flex flex-col items-center space-y-8 border-t-2 border-blue pt-4">
                     <p class="text-secondary-text font-semibold text-center">Untuk submit lamaran bisa melalui Google Form berikut:</p>
-                    <a href="https://forms.gle/your-google-form-link" target="_blank" class="inline-flex items-center px-8 py-3 text-base font-semibold text-ivory bg-blue rounded-lg hover:bg-steel-blue transition duration-300">
+                    <a href="https://forms.gle/your-google-form-link" target="_blank" class="inline-flex items-center px-8 py-3 text-base font-semibold text-primary-text bg-blue rounded-lg hover:bg-steel-blue transition duration-300">
                         Apply Sekarang
                         <svg class="w-5 h-5 ml-2 opacity-0 translate-x-8 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>

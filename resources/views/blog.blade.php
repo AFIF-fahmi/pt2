@@ -22,12 +22,12 @@
                 <article class="blog-card bg-primary-card rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 visible">
                     <div class="relative">
                         <img src="https://images.unsplash.com/photo-1497366216548-37526070297c" alt="Brand Awareness" class="w-full h-48 object-cover" />
-                        <div class="category-tag absolute top-4 left-4 bg-blue text-ivory text-sm font-semibold px-3 py-1 rounded-full">
+                        <div class="category-tag absolute top-4 left-4 bg-blue text-primary-text text-sm font-semibold px-3 py-1 rounded-full">
                             Marketing
                         </div>
                     </div>
                     <div class="p-6">
-                        <time datetime="2023-12-01" class="block text-sm text-gray mb-2">1 December 2023</time>
+                        <time datetime="2023-12-01" class="block text-sm text-primary-text mb-2">1 December 2023</time>
                         <h3 class="text-xl font-bold text-news-title mb-3 blog-title">
                             <a href="#" class="hover:text-primary-text transition">5 Tips Meningkatkan Brand Awareness Bisnis</a>
                         </h3>
@@ -53,12 +53,12 @@
                 <article class="blog-card bg-primary-card rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 visible">
                     <div class="relative">
                         <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40" alt="Virtual Office" class="w-full h-48 object-cover" />
-                        <div class="category-tag absolute top-4 left-4 bg-blue text-ivory text-sm font-semibold px-3 py-1 rounded-full">
+                        <div class="category-tag absolute top-4 left-4 bg-blue text-primary-text text-sm font-semibold px-3 py-1 rounded-full">
                             Business
                         </div>
                     </div>
                     <div class="p-6">
-                        <time datetime="2023-11-30" class="block text-sm text-gray mb-2">30 November 2023</time>
+                        <time datetime="2023-11-30" class="block text-sm text-primary-text mb-2">30 November 2023</time>
                         <h3 class="text-xl font-bold text-news-title mb-3 blog-title">
                             <a href="#" class="hover:text-primary-text transition">5 Alasan Mengapa Pebisnis Harus Menggunakan Virtual Office</a>
                         </h3>
@@ -84,12 +84,12 @@
                 <article class="blog-card bg-primary-card rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 visible">
                     <div class="relative">
                         <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Happy Team" class="w-full h-48 object-cover" />
-                        <div class="category-tag absolute top-4 left-4 bg-blue text-ivory text-sm font-semibold px-3 py-1 rounded-full">
+                        <div class="category-tag absolute top-4 left-4 bg-blue text-primary-text text-sm font-semibold px-3 py-1 rounded-full">
                             Lifestyle
                         </div>
                     </div>
                     <div class="p-6">
-                        <time datetime="2023-11-21" class="block text-sm text-gray mb-2">21 November 2023</time>
+                        <time datetime="2023-11-21" class="block text-sm text-primary-text mb-2">21 November 2023</time>
                         <h3 class="text-xl font-bold text-news-title mb-3 blog-title">
                             <a href="#" class="hover:text-primary-text transition">Keep Happy! 5 Kunci Bahagia Bagi Anak Muda</a>
                         </h3>
@@ -125,7 +125,7 @@
                     <a href="#" class="px-4 py-2 rounded-lg bg-blue text-white">1</a>
                     <a href="#" class="px-4 py-2 rounded-lg text-navy-light hover:bg-sage transition">2</a>
                     <a href="#" class="px-4 py-2 rounded-lg text-navy-light hover:bg-sage transition">3</a>
-                    <span class="px-4 py-2 text-gray">...</span>
+                    <span class="px-4 py-2 text-primary-text">...</span>
                     <a href="#" class="px-4 py-2 rounded-lg text-navy-light hover:bg-sage transition">8</a>
 
                     <a href="#" class="p-2 rounded-lg text-navy-light hover:bg-sage transition">

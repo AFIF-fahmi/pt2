@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="bg-navy text-ivory pr-8 pl-8">
+<footer class="bg-navy text-primary-text pr-8 pl-8">
     <div class="container mx-auto py-6">
         <div class="grid grid-cols-2 lg:grid-cols-6 gap-8">
             <!-- Graha Office & Kontak (col-span-2 on small screens, col-span-3 on large) -->
@@ -37,18 +37,18 @@
             <div class="col-span-1 row-start-2 lg:row-start-auto lg:col-span-1">
                 <h3 class="text-2xl font-bold mb-3 text-white">Navigasi</h3>
                 <ul class="space-y-2">
-                    <li><a href="/" class="hover:text-blue-soft transition">Beranda</a></li>
-                    <li><a href="/about" class="hover:text-blue-soft transition">Tentang Kami</a></li>
-                    <li><a href="/services" class="hover:text-blue-soft transition">Layanan</a></li>
-                    <li><a href="/contact" class="hover:text-blue-soft transition">Kontak</a></li>
+                    <li><a href="/" class="hover:text-secondary-text-soft transition">Beranda</a></li>
+                    <li><a href="/about" class="hover:text-secondary-text-soft transition">Tentang Kami</a></li>
+                    <li><a href="/services" class="hover:text-secondary-text-soft transition">Layanan</a></li>
+                    <li><a href="/contact" class="hover:text-secondary-text-soft transition">Kontak</a></li>
                 </ul>
             </div>
             <!-- Legal -->
             <div class="col-span-1 row-start-2 lg:row-start-auto lg:col-span-1">
                 <h3 class="text-2xl font-bold mb-3 text-white">Legal</h3>
                 <ul class="space-y-2">
-                    <li><a href="/privacy-policy" class="hover:text-blue-soft transition">Kebijakan Privasi</a></li>
-                    <li><a href="/terms" class="hover:text-blue-soft transition">Syarat & Ketentuan</a></li>
+                    <li><a href="/privacy-policy" class="hover:text-secondary-text-soft transition">Kebijakan Privasi</a></li>
+                    <li><a href="/terms" class="hover:text-secondary-text-soft transition">Syarat & Ketentuan</a></li>
                 </ul>
             </div>
         </div>

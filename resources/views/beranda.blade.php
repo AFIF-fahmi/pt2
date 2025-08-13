@@ -16,23 +16,23 @@
 
     <div class="relative z-10 mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div class="max-w-xl">
-            <h1 class="text-4xl font-bold text-ivory sm:text-5xl">
+            <h1 class="text-4xl font-bold text-white sm:text-5xl">
                 GRAHA
                 <span class="text-beranda-title">OFFICE</span>
             </h1>
 
-            <p class="mt-4 text-lg text-pretty text-beige sm:text-xl">
+            <p class="mt-4 text-lg text-pretty text-white sm:text-xl">
                 Alamat bisnis prestisius, bergengsi dan sangat strategis di tengah kota. 
                 Dapat digunakan untuk domisili resmi perusahaan sehingga lebih Profesional.
             </p>
 
             <div class="mt-8 flex gap-4 sm:mt-8">
                 <a href="{{ url('/kontak') }}" 
-                class="inline-block rounded-lg bg-blue px-8 py-4 text-base font-semibold text-ivory focus:outline-none focus:ring focus:ring-[#] hover-btn1">
+                class="inline-block btn-1">
                     Hubungi Kami
                 </a>
                 
-                <a href="#layanan-beranda" class="hover-btn2 inline-block rounded-lg bg-ivory/10 backdrop-blur px-8 py-4 text-base font-semibold text-ivory transition border-2 border-ivory focus:outline-none focus:ring focus:ring-blue-soft">
+                <a href="#layanan-beranda" class="inline-block btn-1">
                     Layanan Kami
                 </a>
             </div>
@@ -266,19 +266,19 @@
             <article class="bg-primary-news rounded-xl overflow-hidden shadow-md group transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
                 <div class="relative">
                     <img src="https://images.unsplash.com/photo-1497366216548-37526070297c" alt="Office" class="w-full h-48 object-cover transition-all duration-300 group-hover:scale-110 opacity-75"/>
-                    <div class="absolute top-4 left-4 bg-blue text-ivory text-sm font-semibold px-3 py-1 rounded-full">
+                    <div class="absolute top-4 left-4 bg-blue text-primary-text text-sm font-semibold px-3 py-1 rounded-full">
                         Bisnis
                     </div>
                 </div>
                 <div class="p-6">
-                    <time datetime="2025-07-03" class="block text-sm text-gray mb-2">3 Juli 2025</time>
+                    <time datetime="2025-07-03" class="block text-sm text-primary-text mb-2">3 Juli 2025</time>
                     <h3 class="text-xl font-bold text-news-title mb-3">
                         <a href="#" class="hover:text-primary-text transition">Tips Memilih Virtual Office yang Tepat untuk Startup</a>
                     </h3>
                     <p class="text-primary-text mb-4">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
                     </p>
-                    <a href="#" class="inline-flex items-center text-blue hover:text-steel-blue font-semibold">
+                    <a href="#" class="inline-flex items-center text-secondary-text hover:text-steel-blue font-semibold">
                         Baca Selengkapnya
                         <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -291,19 +291,19 @@
             <article class="bg-primary-news rounded-xl overflow-hidden shadow-md group transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
                 <div class="relative">
                     <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" alt="Office" class="w-full h-48 object-cover transition-all duration-300 group-hover:scale-110 opacity-75"/>
-                    <div class="absolute top-4 left-4 bg-blue text-ivory text-sm font-semibold px-3 py-1 rounded-full">
+                    <div class="absolute top-4 left-4 bg-blue text-primary-text text-sm font-semibold px-3 py-1 rounded-full">
                         Panduan
                     </div>
                 </div>
                 <div class="p-6">
-                    <time datetime="2025-07-02" class="block text-sm text-gray mb-2">2 Juli 2025</time>
+                    <time datetime="2025-07-02" class="block text-sm text-primary-text mb-2">2 Juli 2025</time>
                     <h3 class="text-xl font-bold text-news-title mb-3">
                         <a href="#" class="hover:text-primary-text transition">Langkah-langkah Mendirikan PT untuk Pemula</a>
                     </h3>
                     <p class="text-primary-text mb-4">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque...
                     </p>
-                    <a href="#" class="inline-flex items-center text-blue hover:text-steel-blue font-semibold">
+                    <a href="#" class="inline-flex items-center text-secondary-text hover:text-steel-blue font-semibold">
                         Baca Selengkapnya
                         <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -317,19 +317,19 @@
             <article class="bg-primary-news rounded-xl overflow-hidden shadow-md group transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
                 <div class="relative">
                     <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786" alt="Office" class="w-full h-48 object-cover transition-all duration-300 group-hover:scale-110 opacity-75"/>
-                    <div class="absolute top-4 left-4 bg-blue text-ivory text-sm font-semibold px-3 py-1 rounded-full">
+                    <div class="absolute top-4 left-4 bg-blue text-primary-text text-sm font-semibold px-3 py-1 rounded-full">
                         Tips
                     </div>
                 </div>
                 <div class="p-6">
-                    <time datetime="2025-07-01" class="block text-sm text-gray mb-2">1 Juli 2025</time>
+                    <time datetime="2025-07-01" class="block text-sm text-primary-text mb-2">1 Juli 2025</time>
                     <h3 class="text-xl font-bold text-news-title mb-3">
                         <a href="#" class="hover:text-primary-text transition">5 Keuntungan Menggunakan Shared Office Space</a>
                     </h3>
                     <p class="text-primary-text mb-4">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus placerat fringilla. Duis a elit et dolor...
                     </p>
-                    <a href="#" class="inline-flex items-center text-blue hover:text-steel-blue font-semibold">
+                    <a href="#" class="inline-flex items-center text-secondary-text hover:text-steel-blue font-semibold">
                         Baca Selengkapnya
                         <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -341,7 +341,7 @@
 
         <!-- View All News Button -->
         <div class="group text-center mt-12 transition hover:scale-105">
-            <a href="{{ url('/blog') }}" class="inline-flex items-center px-8 py-3 text-base font-semibold text-ivory bg-blue rounded-lg hover:bg-steel-blue transition duration-300">
+            <a href="{{ url('/blog') }}" class="inline-flex items-center px-8 py-3 text-base font-semibold text-primary-text bg-blue rounded-lg hover:bg-steel-blue transition duration-300">
                 Lihat Semua Berita
                 <svg class="w-5 h-5 ml-2 opacity-0 translate-x-8 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>

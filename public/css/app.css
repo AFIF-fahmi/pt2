@@ -1591,34 +1591,34 @@
   .text-\[\#f53003\] {
     color: #f53003;
   }
-  .text-blue-500 {
+  .text-secondary-text-500 {
     color: var(--color-blue-500);
   }
-  .text-gray-50 {
+  .text-primary-text-50 {
     color: var(--color-gray-50);
   }
-  .text-gray-200 {
+  .text-primary-text-200 {
     color: var(--color-gray-200);
   }
-  .text-gray-300 {
+  .text-primary-text-300 {
     color: var(--color-gray-300);
   }
   .text-gray-400 {
     color: var(--color-gray-400);
   }
-  .text-gray-500 {
+  .text-primary-text-500 {
     color: var(--color-gray-500);
   }
-  .text-gray-600 {
+  .text-primary-text-600 {
     color: var(--color-gray-600);
   }
-  .text-gray-700 {
+  .text-primary-text-700 {
     color: var(--color-gray-700);
   }
-  .text-gray-800 {
+  .text-primary-text-800 {
     color: var(--color-gray-800);
   }
-  .text-gray-900 {
+  .text-primary-text-900 {
     color: var(--color-gray-900);
   }
   .text-indigo-600 {
@@ -2090,21 +2090,21 @@
       }
     }
   }
-  .hover\:text-gray-400 {
+  .hover\:text-primary-text-400 {
     &:hover {
       @media (hover: hover) {
         color: var(--color-gray-400);
       }
     }
   }
-  .hover\:text-gray-500 {
+  .hover\:text-primary-text-500 {
     &:hover {
       @media (hover: hover) {
         color: var(--color-gray-500);
       }
     }
   }
-  .hover\:text-gray-900 {
+  .hover\:text-primary-text-900 {
     &:hover {
       @media (hover: hover) {
         color: var(--color-gray-900);
@@ -2159,7 +2159,7 @@
       border-color: var(--color-blue-300);
     }
   }
-  .focus\:text-gray-500 {
+  .focus\:text-primary-text-500 {
     &:focus {
       color: var(--color-gray-500);
     }
@@ -2230,12 +2230,12 @@
       background-color: var(--color-gray-100);
     }
   }
-  .active\:text-gray-500 {
+  .active\:text-primary-text-500 {
     &:active {
       color: var(--color-gray-500);
     }
   }
-  .active\:text-gray-700 {
+  .active\:text-primary-text-700 {
     &:active {
       color: var(--color-gray-700);
     }
@@ -2770,27 +2770,27 @@
       color: #FF4433;
     }
   }
-  .dark\:text-gray-100 {
+  .dark\:text-primary-text-100 {
     &:is(.dark *) {
       color: var(--color-gray-100);
     }
   }
-  .dark\:text-gray-300 {
+  .dark\:text-primary-text-300 {
     &:is(.dark *) {
       color: var(--color-gray-300);
     }
   }
-  .dark\:text-gray-400 {
+  .dark\:text-primary-text-400 {
     &:is(.dark *) {
       color: var(--color-gray-400);
     }
   }
-  .dark\:text-gray-600 {
+  .dark\:text-primary-text-600 {
     &:is(.dark *) {
       color: var(--color-gray-600);
     }
   }
-  .dark\:text-gray-950 {
+  .dark\:text-primary-text-950 {
     &:is(.dark *) {
       color: var(--color-gray-950);
     }
@@ -2891,7 +2891,7 @@
       }
     }
   }
-  .dark\:hover\:text-gray-300 {
+  .dark\:hover\:text-primary-text-300 {
     &:is(.dark *) {
       &:hover {
         @media (hover: hover) {
@@ -2900,7 +2900,7 @@
       }
     }
   }
-  .dark\:hover\:text-gray-500 {
+  .dark\:hover\:text-primary-text-500 {
     &:is(.dark *) {
       &:hover {
         @media (hover: hover) {
@@ -2923,7 +2923,7 @@
       }
     }
   }
-  .dark\:focus\:text-gray-500 {
+  .dark\:focus\:text-primary-text-500 {
     &:is(.dark *) {
       &:focus {
         color: var(--color-gray-500);
@@ -2937,7 +2937,7 @@
       }
     }
   }
-  .dark\:active\:text-gray-300 {
+  .dark\:active\:text-primary-text-300 {
     &:is(.dark *) {
       &:active {
         color: var(--color-gray-300);

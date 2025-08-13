@@ -2,13 +2,13 @@
 
 @section('content')
 <!-- Hero Section -->
-<section class="relative bg-banner-header text-ivory py-32">
+<section class="relative bg-banner-header text-primary-text py-32">
     <div class="absolute inset-0">
         <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3" alt="Office" class="w-full h-full object-cover opacity-20">
     </div>
     <div class="relative container mx-auto px-4">
         <h1 class="text-4xl md:text-5xl font-bold mb-6">Layanan Kami</h1>
-        <p class="text-xl text-light max-w-2xl">Solusi lengkap untuk kebutuhan kantor dan legalitas bisnis Anda dengan layanan profesional dan lokasi strategis</p>
+        <p class="text-xl text-primary-heading max-w-2xl">Solusi lengkap untuk kebutuhan kantor dan legalitas bisnis Anda dengan layanan profesional dan lokasi strategis</p>
     </div>
 </section>
 
@@ -119,11 +119,11 @@
 
                     <div class="flex gap-4">
 
-                        <a href="{{ url('/kontak') }}" class="group inline-block bg-blue text-ivory px-8 py-3 rounded-lg hover:bg-steel-blue transition">
+                        <a href="{{ url('/kontak') }}" class="group inline-block bg-blue text-primary-text px-8 py-3 rounded-lg hover:bg-steel-blue transition">
                             Hubungi Kami
                             <span><i class="fa-solid fa-phone translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
                         </a>
-                        <a href="#" class="group inline-block bg-ivory text-blue px-8 py-3 rounded-lg hover:bg-[#e7ecf0] transition border-2 border-blue"> 
+                        <a href="#" class="group inline-block bg-ivory text-secondary-text px-8 py-3 rounded-lg hover:bg-[#e7ecf0] transition border-2 border-blue"> 
                             Lihat Price List
                             <span><i class="fa-solid fa-coins translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
                         </a>
@@ -177,7 +177,7 @@
                             </div>
 
                             <div>
-                                <h4 class="font-semibold text-gray-800 mb-2">Termasuk Fasilitas:</h4>
+                                <h4 class="font-semibold text-primary-text-800 mb-2">Termasuk Fasilitas:</h4>
                                 <ul class="space-y-3">
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -281,11 +281,11 @@
                     </div>
 
                     <div class="flex gap-4">
-                        <a href="{{ url('/kontak') }}" class="group inline-block bg-blue text-ivory px-8 py-3 rounded-lg hover:bg-steel-blue transition">
+                        <a href="{{ url('/kontak') }}" class="group inline-block bg-blue text-primary-text px-8 py-3 rounded-lg hover:bg-steel-blue transition">
                             Hubungi Kami
                             <span><i class="fa-solid fa-phone translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
                         </a>
-                        <a href="#" class="group inline-block bg-ivory text-blue px-8 py-3 rounded-lg hover:bg-[#e7ecf0] transition border-2 border-blue">
+                        <a href="#" class="group inline-block bg-ivory text-secondary-text px-8 py-3 rounded-lg hover:bg-[#e7ecf0] transition border-2 border-blue">
                             Lihat Price List
                             <span><i class="fa-solid fa-coins translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
                         </a>
@@ -443,11 +443,11 @@
                     </div>
 
                     <div class="flex gap-4">
-                        <a href="{{ url('/kontak') }}" class="group inline-block bg-blue text-ivory px-8 py-3 rounded-lg hover:bg-steel-blue transition">
+                        <a href="{{ url('/kontak') }}" class="group inline-block bg-blue text-primary-text px-8 py-3 rounded-lg hover:bg-steel-blue transition">
                             Hubungi Kami
                             <span><i class="fa-solid fa-phone translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
                         </a>
-                        <a href="#" class="group inline-block bg-ivory text-blue px-8 py-3 rounded-lg hover:bg-[#e7ecf0] transition border-2 border-blue">
+                        <a href="#" class="group inline-block bg-ivory text-secondary-text px-8 py-3 rounded-lg hover:bg-[#e7ecf0] transition border-2 border-blue">
                             Lihat Price List
                             <span><i class="fa-solid fa-coins translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
                         </a>
@@ -464,11 +464,11 @@
 <!-- Section CTA -->
 <section id="CTA" class="py-20 bg-blue">
     <div class="container mx-auto px-4 text-center">
-        <h2 class="text-3xl font-bold text-ivory mb-8">Siap Memulai?</h2>
+        <h2 class="text-3xl font-bold text-primary-text mb-8">Siap Memulai?</h2>
         <p class="text-xl text-[#e7ecf0] mb-8 max-w-2xl mx-auto">
             Hubungi kami untuk konsultasi gratis dan penawaran terbaik sesuai kebutuhan bisnis Anda
         </p>
-        <a href="{{ url('/kontak') }}" class="inline-block bg-ivory text-blue px-8 py-3 rounded-lg hover:bg-[#e7ecf0] transition">
+        <a href="{{ url('/kontak') }}" class="inline-block bg-ivory text-secondary-text px-8 py-3 rounded-lg hover:bg-[#e7ecf0] transition">
             Hubungi Kami Sekarang
         </a>
     </div>

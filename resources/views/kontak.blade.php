@@ -6,13 +6,13 @@
 
 @section('content')
 <!-- Contact Form Section -->
-<div class="flex grid lg:grid-cols-2 sm:grid-cols-1 gap-8 m-5">
+<div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-8 m-5">
     <!-- Map Section -->
     <section class="bg-primary-bckg>
-        <div class=" container mx-auto px-4">
+        <div class="container mx-auto">
         <!-- Map Container -->
-        <div class="bg-white translate-y-4 card-base shadow-2xl/20 overflow-hidden my-6">
-            <div class="font-bold text-3xl items-center justify-between bg-primary-card text-ivory px-6 py-6 rounded-t-lg">
+        <div class="bg-primary-card translate-y-4 rounded-xl shadow-2xl/20 overflow-hidden">
+            <div class="font-bold text-3xl items-center justify-between bg-primary-card text-primary-text px-6 py-6 rounded-t-lg">
                 <p class="text-center text-primary-text">Lokasi Kami</p>
             </div>
             <iframe
@@ -91,7 +91,7 @@
                             type="button"
                             id="regenerateButton"
                             onclick="generateCaptcha()"
-                            class="p-2 text-blue hover:text-steel-blue transition-colors regenerate-button">
+                            class="p-2 text-secondary-text hover:text-steel-blue transition-colors regenerate-button">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd" d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z" clip-rule="evenodd" />
                         </button>
@@ -113,7 +113,7 @@
 
                 <!-- Submit Button -->
                 <div>
-                    <button type="submit" class="w-full bg-blue text-ivory py-3 rounded-lg font-semibold hover:bg-steel-blue transition-colors focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2">
+                    <button type="submit" class="w-full bg-blue text-primary-text py-3 rounded-lg font-semibold hover:bg-steel-blue transition-colors focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2">
                         Kirim Pesan
                     </button>
                 </div>
