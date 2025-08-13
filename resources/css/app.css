@@ -37,8 +37,10 @@
 
     --color-nav-layanan: #F8F8F8;
 
+    --color-footer-bckg: #E4ECEF;
+    --color-footer-text: #4C7C9C;
     --color-footer-icon: #4C7C9C;
-    --color-footer-secondary-icon: ##3D637D;
+    --color-footer-secondary-icon: #3D637D;
 
     /* button */
     --color-btn1: #2A3B55;
@@ -74,6 +76,8 @@
 
     --color-nav-layanan: #334766;
 
+    --color-footer-bckg: #0A1C3F;
+    --color-footer-text: #00786E;
     --color-footer-icon: #009689;
     --color-footer-secondary-icon: #00786E;
 

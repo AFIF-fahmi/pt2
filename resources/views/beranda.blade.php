@@ -341,12 +341,9 @@
 
         <!-- View All News Button -->
         <div class="group text-center mt-12 transition hover:scale-105">
-            <a href="{{ url('/blog') }}" class="inline-flex items-center px-8 py-3 text-base font-semibold text-primary-text bg-blue rounded-lg hover:bg-steel-blue transition duration-300">
-                Lihat Semua Berita
-                <svg class="w-5 h-5 ml-2 opacity-0 translate-x-8 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-                </svg>
-            </a>
+
+            <x-ButtonIcon text="Lihat Semua Berita" url="{{ url('/blog') }}" icon="fa-solid fa-arrow-right translate-y-1" color="white" bg="footer-icon"/>
+
         </div>
     </div>
 </section>
