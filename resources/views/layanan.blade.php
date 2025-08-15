@@ -6,9 +6,9 @@
     <div class="absolute inset-0">
         <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3" alt="Office" class="w-full h-full object-cover opacity-20">
     </div>
-    <div class="relative container mx-auto px-4">
+    <div class="relative container mx-auto px-4 text-white">
         <h1 class="text-4xl md:text-5xl font-bold mb-6">Layanan Kami</h1>
-        <p class="text-xl text-primary-heading max-w-2xl">Solusi lengkap untuk kebutuhan kantor dan legalitas bisnis Anda dengan layanan profesional dan lokasi strategis</p>
+        <p class="text-xl max-w-2xl">Solusi lengkap untuk kebutuhan kantor dan legalitas bisnis Anda dengan layanan profesional dan lokasi strategis</p>
     </div>
 </section>
 
@@ -61,7 +61,10 @@
         <div class="max-w-6xl mx-auto">
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div class="order-2 md:order-1">
-                    <h2 class="text-3xl font-bold text-secondary-text mb-6">Virtual Office</h2>
+                    <div class="flex items-center mb-6">
+                        <span class="inline-block bg-secondary-text text-white rounded-full px-5 py-1 text-lg font-bold mr-3">1</span>
+                        <h2 class="text-3xl font-bold text-secondary-text flex items-center m-0">Virtual Office</h2>
+                    </div>
                     <p class="text-primary-text mb-6">Solusi kantor profesional dengan biaya hemat. Dapatkan alamat bisnis prestisius di pusat kota untuk meningkatkan citra perusahaan Anda.</p>
 
                     <div class="bg-primary-card rounded-lg p-6 shadow-lg mb-6">
@@ -146,7 +149,10 @@
                     <img src="https://images.unsplash.com/photo-1497215842964-222b430dc094?ixlib=rb-4.0.3" alt="Private Office" class="rounded-lg shadow-lg w-full">
                 </div>
                 <div>
-                    <h2 class="text-secondary-text-alt text-3xl font-bold mb-6">Private Office</h2>
+                    <div class="flex items-center mb-6 justify-between">
+                        <h2 class="text-secondary-text-alt text-3xl font-bold flex items-center m-0">Private Office</h2>
+                        <span class="inline-block bg-secondary-text-alt text-white rounded-full px-5 py-1 text-lg font-bold ml-3">2</span>
+                    </div>
                     <p class="text-primary-text mb-6">Ruangan kantor private dengan lingkungan kerja yang nyaman dan profesional. Ideal untuk tim yang membutuhkan privasi dan fokus maksimal.</p>
 
                     <div class="bg-primary-card rounded-lg p-6 shadow-lg mb-6">
@@ -224,7 +230,10 @@
         <div class="max-w-6xl mx-auto">
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div class="order-2 md:order-1">
-                    <h2 class="text-3xl font-bold text-secondary-text mb-6">Shared Office</h2>
+                    <div class="flex items-center mb-6">
+                        <span class="inline-block bg-secondary-text text-white rounded-full px-5 py-1 text-lg font-bold mr-3">3</span>
+                        <h2 class="text-3xl font-bold text-secondary-text flex items-center m-0">Shared Office</h2>
+                    </div>
                     <p class="text-primary-text mb-6">Solusi ekonomis untuk startup dan freelancer dengan full akses ke fasilitas kantor dan komunitas bisnis yang dinamis.</p>
 
                     <div class="bg-primary-card rounded-lg p-6 shadow-lg mb-6">
@@ -308,7 +317,10 @@
                     <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3" alt="Pembuatan PT CV" class="rounded-lg shadow-lg w-full">
                 </div>
                 <div>
-                    <h2 class="text-3xl text-secondary-text-alt font-bold mb-6">Pembuatan PT & CV</h2>
+                    <div class="flex items-center mb-6 justify-between">
+                        <h2 class="text-3xl text-secondary-text-alt font-bold flex items-center m-0">Pembuatan PT & CV</h2>
+                        <span class="inline-block bg-secondary-text-alt text-white rounded-full px-5 py-1 text-lg font-bold ml-3">4</span>
+                    </div>
                     <p class="text-primary-text mb-6">Layanan pendirian perusahaan lengkap dengan pendampingan profesional. Proses cepat dan legal untuk memulai bisnis Anda.</p>
 
                     <div class="bg-primary-card rounded-lg p-6 shadow-lg mb-6">
@@ -386,7 +398,10 @@
         <div class="max-w-6xl mx-auto">
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div class="order-2 md:order-1">
-                    <h2 class="text-3xl font-bold text-secondary-text mb-6">Paket Hemat</h2>
+                    <div class="flex items-center mb-6">
+                        <span class="inline-block bg-secondary-text text-white rounded-full px-5 py-1 text-lg font-bold mr-3">5</span>
+                        <h2 class="text-3xl font-bold text-secondary-text flex items-center m-0">Paket Hemat</h2>
+                    </div>
                     <p class="text-primary-text mb-6">Kombinasi lengkap Virtual Office dan Pendirian PT/CV dengan harga spesial. Hemat hingga 30% dengan paket bundling.</p>
 
                     <div class="bg-primary-card rounded-lg p-6 shadow-lg mb-6">

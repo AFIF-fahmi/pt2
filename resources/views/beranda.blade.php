@@ -340,9 +340,9 @@
         </div>
 
         <!-- View All News Button -->
-        <div class="group text-center mt-12 transition hover:scale-105">
+        <div class="text-center mt-12">
 
-            <x-ButtonIcon text="Lihat Semua Berita" url="{{ url('/blog') }}" icon="fa-solid fa-arrow-right translate-y-1" color="white" bg="footer-icon"/>
+            <x-ButtonIcon text="Lihat Semua Berita" url="{{ url('/blog') }}" icon="fa-regular fa-newspaper translate-y-1" color="white" bg="footer-icon"/>
 
         </div>
     </div>
