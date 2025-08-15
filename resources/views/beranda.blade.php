@@ -336,13 +336,12 @@
         <!-- View All News Button -->
         <div class="text-center mt-12">
 
-            <x-ButtonIcon text="Lihat Semua Berita" url="{{ url('/blog') }}" icon="fa-regular fa-newspaper translate-y-1" color="white" bg="footer-icon" />
             <x-button-icon
-                text="Tambah Data"
-                url="/data/tambah"
-                icon="fa fa-plus"
+                text="Lihat Semua Berita"
+                url="/blog"
+                icon="fa-regular fa-newspaper"
                 color="text-white"
-                bg="bg-green-600 hover:bg-green-700" />
+                bg="bg-footer-icon" />
         </div>
     </div>
 </section>
