@@ -38,7 +38,8 @@
     --color-nav-layanan: #F8F8F8;
 
     --color-footer-bckg: #E4ECEF;
-    --color-footer-text: #4C7C9C;
+    --color-footer-title: #4C7C9C;
+    --color-footer-text: #1b2b42;
     --color-footer-icon: #4C7C9C;
     --color-footer-secondary-icon: #3D637D;
 
@@ -77,7 +78,8 @@
     --color-nav-layanan: #334766;
 
     --color-footer-bckg: #0A1C3F;
-    --color-footer-text: #00786E;
+    --color-footer-title: #009689;
+    --color-footer-text: #e0fffc;
     --color-footer-icon: #009689;
     --color-footer-secondary-icon: #00786E;
 
