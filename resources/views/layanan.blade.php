@@ -149,7 +149,7 @@
                     <img src="https://images.unsplash.com/photo-1497215842964-222b430dc094?ixlib=rb-4.0.3" alt="Private Office" class="rounded-lg shadow-lg w-full">
                 </div>
                 <div>
-                    <div class="flex items-center mb-6 justify-between">
+                    <div class="flex items-center mb-6">
                         <h2 class="text-secondary-text-alt text-3xl font-bold flex items-center m-0">Private Office</h2>
                         <span class="inline-block bg-secondary-text-alt text-white rounded-full px-5 py-1 text-lg font-bold ml-3">2</span>
                     </div>
@@ -317,7 +317,7 @@
                     <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3" alt="Pembuatan PT CV" class="rounded-lg shadow-lg w-full">
                 </div>
                 <div>
-                    <div class="flex items-center mb-6 justify-between">
+                    <div class="flex items-center mb-6">
                         <h2 class="text-3xl text-secondary-text-alt font-bold flex items-center m-0">Pembuatan PT & CV</h2>
                         <span class="inline-block bg-secondary-text-alt text-white rounded-full px-5 py-1 text-lg font-bold ml-3">4</span>
                     </div>
