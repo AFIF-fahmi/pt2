@@ -1,6 +1,10 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-DMf4Nqbp.css",
+<<<<<<< HEAD
+    "file": "assets/app-Dwpb53aA.css",
+=======
+    "file": "assets/app-BD3vPpl7.css",
+>>>>>>> parent of e0826c0 (Beranda Revisi)
     "src": "resources/css/app.css",
     "isEntry": true
   },

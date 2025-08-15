@@ -1,11 +1,11 @@
 <!-- Footer -->
-<footer class="bg-footer-bckg text-primary-text pr-8 pl-8">
+<footer class="bg-navy text-primary-text pr-8 pl-8">
     <div class="container mx-auto py-6">
         <div class="grid grid-cols-2 lg:grid-cols-6 gap-8">
             <!-- Graha Office & Kontak (col-span-2 on small screens, col-span-3 on large) -->
             <div class="col-span-2 lg:col-span-4 flex flex-col">
-                <h3 class="text-2xl font-bold mb-3 text-footer-text">Graha Office</h3>
-                <div class="lg:w-1/2 md:w-80 sm:w-120 text-secondary-text-soft">
+                <h3 class="text-2xl font-bold mb-3 text-white">Graha Office</h3>
+                <div class="lg:w-1/2 md:w-80 sm:w-120 text-white">
                     <p>
                         Ruang kerja profesional dengan fasilitas modern dan lokasi strategis di pusat kota.
                         Ideal untuk perusahaan yang mengutamakan kenyamanan dan efisiensi kerja
@@ -35,7 +35,7 @@
             </div>
             <!-- Navigasi Site Map -->
             <div class="col-span-1 row-start-2 lg:row-start-auto lg:col-span-1">
-                <h3 class="text-2xl font-bold mb-3 text-footer-text">Navigasi</h3>
+                <h3 class="text-2xl font-bold mb-3 text-white">Navigasi</h3>
                 <ul class="space-y-2">
                     <li><a href="/" class="hover:text-secondary-text-soft transition">Beranda</a></li>
                     <li><a href="/about" class="hover:text-secondary-text-soft transition">Tentang Kami</a></li>
@@ -45,7 +45,7 @@
             </div>
             <!-- Legal -->
             <div class="col-span-1 row-start-2 lg:row-start-auto lg:col-span-1">
-                <h3 class="text-2xl font-bold mb-3 text-footer-text">Legal</h3>
+                <h3 class="text-2xl font-bold mb-3 text-white">Legal</h3>
                 <ul class="space-y-2">
                     <li><a href="/privacy-policy" class="hover:text-secondary-text-soft transition">Kebijakan Privasi</a></li>
                     <li><a href="/terms" class="hover:text-secondary-text-soft transition">Syarat & Ketentuan</a></li>
@@ -53,7 +53,7 @@
             </div>
         </div>
         <!-- Copyright -->
-        <div class="text-center text-footer-text font-semibold hover:font-bold mt-10">
+        <div class="text-center text-beige mt-10">
             <p>&copy; {{ date('Y') }} {{ config('app.name', 'Laravel') }}. All rights reserved.</p>
         </div>
     </div>
