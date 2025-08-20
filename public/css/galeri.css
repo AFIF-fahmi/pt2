@@ -26,13 +26,45 @@
   justify-content: center;
   z-index: 9999;
 }
+
+/* Lightbox overlay baru */
+.galeri-lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 184, 166, 0.50);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+
+
+.galeri-lightbox-img-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+  min-height: 200px;
+}
 .galeri-lightbox-img {
   max-width: 90vw;
   max-height: 80vh;
   border-radius: 1rem;
   box-shadow: 0 8px 32px #0A1C3F66;
-  background: #F8F8F8;
-  padding: 0.5rem;
+  background: #ffffff;
+  padding: 0.15rem;
+  opacity: 0;
+  transform: scale(0.92);
+  transition: opacity 0.5s cubic-bezier(.4,2,.6,1), transform 0.5s cubic-bezier(.4,2,.6,1);
+}
+.galeri-lightbox-img.show {
+  opacity: 1;
+  transform: scale(1);
+}
+.galeri-lightbox-img.hide {
+  opacity: 0;
+  transform: scale(0.92);
 }
 .galeri-lightbox-close {
   position: absolute;
@@ -44,4 +76,4 @@
   background: none;
   border: none;
   z-index: 10000;
-} 
+}

@@ -29,7 +29,7 @@ Route::get('/blog', function () {
 
 Route::get('/galeri', function () {
     return view('galeri');
-})->name('galeri');
+});
 
 // 
 

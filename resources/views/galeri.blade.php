@@ -213,6 +213,7 @@
     </ul>
   </div>
 </section>
+@endsection
 
 @push('scripts')
 <script src="{{ asset('js/galeri.js') }}"></script>
