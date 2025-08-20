@@ -121,15 +121,18 @@
                     </div>
 
                     <div class="flex gap-4">
-
-                        <a href="{{ url('/kontak') }}" class="group inline-block bg-blue text-primary-text px-8 py-3 rounded-lg hover:bg-steel-blue transition">
-                            Hubungi Kami
-                            <span><i class="fa-solid fa-phone translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
-                        </a>
-                        <a href="#" class="group inline-block bg-ivory text-secondary-text px-8 py-3 rounded-lg hover:bg-[#e7ecf0] transition border-2 border-blue"> 
-                            Lihat Price List
-                            <span><i class="fa-solid fa-coins translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
-                        </a>
+                        <x-button-icon
+                            text="Hubungi Kami"
+                            url="/kontak"
+                            icon="fa-solid fa-phone"
+                            color="text-white"
+                            bg="bg-layanan-btn" />
+                        <x-button-icon
+                            text="Lihat Price List"
+                            url="#"
+                            icon="fa-solid fa-coins"
+                            color="text-layanan-btn"
+                            bg="bg-transparent border-2 border-layanan-btn" />
                     </div>
                 </div>
                 <div class="order-1 md:order-2 translate-y-7">
@@ -183,7 +186,7 @@
                             </div>
 
                             <div>
-                                <h4 class="font-semibold text-primary-text-800 mb-2">Termasuk Fasilitas:</h4>
+                                <h4 class="font-semibold text-secondary-text-alt mb-2">Termasuk Fasilitas:</h4>
                                 <ul class="space-y-3">
                                     <li class="flex items-start">
                                         <svg class="w-5 h-5 text-teal-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -209,14 +212,18 @@
                     </div>
 
                     <div class="flex gap-4">
-                        <a href="{{ url('/kontak') }}" class="group inline-block bg-teal-600 text-white px-8 py-3 rounded-lg hover:bg-teal-700 transition">
-                            Hubungi Kami
-                            <span><i class="fa-solid fa-phone translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
-                        </a>
-                        <a href="#" class="group inline-block bg-white text-teal-600 px-8 py-3 rounded-lg hover:bg-primary-card transition border-2 border-teal-600">
-                            Lihat Price List
-                            <span><i class="fa-solid fa-coins translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
-                        </a>
+                        <x-button-icon
+                            text="Hubungi Kami"
+                            url="/kontak"
+                            icon="fa-solid fa-phone"
+                            color="text-white"
+                            bg="bg-teal-600" />
+                        <x-button-icon
+                            text="Lihat Price List"
+                            url="#"
+                            icon="fa-solid fa-coins"
+                            color="text-teal-600"
+                            bg="bg-transparent border-2 border-teal-600" />
                     </div>
                 </div>
             </div>
@@ -290,14 +297,18 @@
                     </div>
 
                     <div class="flex gap-4">
-                        <a href="{{ url('/kontak') }}" class="group inline-block bg-blue text-primary-text px-8 py-3 rounded-lg hover:bg-steel-blue transition">
-                            Hubungi Kami
-                            <span><i class="fa-solid fa-phone translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
-                        </a>
-                        <a href="#" class="group inline-block bg-ivory text-secondary-text px-8 py-3 rounded-lg hover:bg-[#e7ecf0] transition border-2 border-blue">
-                            Lihat Price List
-                            <span><i class="fa-solid fa-coins translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
-                        </a>
+                        <x-button-icon
+                            text="Hubungi Kami"
+                            url="/kontak"
+                            icon="fa-solid fa-phone"
+                            color="text-white"
+                            bg="bg-layanan-btn" />
+                        <x-button-icon
+                            text="Lihat Price List"
+                            url="#"
+                            icon="fa-solid fa-coins"
+                            color="text-layanan-btn"
+                            bg="bg-transparent border-2 border-layanan-btn" />
                     </div>
                 </div>
                 <div class="order-1 md:order-2 translate-y-7">
@@ -377,14 +388,18 @@
                     </div>
 
                     <div class="flex gap-4">
-                        <a href="{{ url('/kontak') }}" class="group inline-block bg-teal-600 text-white px-8 py-3 rounded-lg hover:bg-teal-700 transition">
-                            Hubungi Kami
-                            <span><i class="fa-solid fa-phone translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
-                        </a>
-                        <a href="#" class="group inline-block bg-white text-teal-600 px-8 py-3 rounded-lg hover:bg-primary-card transition border-2 border-teal-600">
-                            Lihat Price List
-                            <span><i class="fa-solid fa-coins translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
-                        </a>
+                        <x-button-icon
+                            text="Hubungi Kami"
+                            url="/kontak"
+                            icon="fa-solid fa-phone"
+                            color="text-white"
+                            bg="bg-teal-600" />
+                        <x-button-icon
+                            text="Lihat Price List"
+                            url="#"
+                            icon="fa-solid fa-coins"
+                            color="text-teal-600"
+                            bg="bg-transparent border-2 border-teal-600" />
                     </div>
                 </div>
             </div>
@@ -458,14 +473,18 @@
                     </div>
 
                     <div class="flex gap-4">
-                        <a href="{{ url('/kontak') }}" class="group inline-block bg-blue text-primary-text px-8 py-3 rounded-lg hover:bg-steel-blue transition">
-                            Hubungi Kami
-                            <span><i class="fa-solid fa-phone translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
-                        </a>
-                        <a href="#" class="group inline-block bg-ivory text-secondary-text px-8 py-3 rounded-lg hover:bg-[#e7ecf0] transition border-2 border-blue">
-                            Lihat Price List
-                            <span><i class="fa-solid fa-coins translate-x-6 opacity-0 transition duration-300 group-hover:opacity-100 group-hover:translate-x-2"></i></span>
-                        </a>
+                        <x-button-icon
+                            text="Hubungi Kami"
+                            url="/kontak"
+                            icon="fa-solid fa-phone"
+                            color="text-white"
+                            bg="bg-layanan-btn" />
+                        <x-button-icon
+                            text="Lihat Price List"
+                            url="#"
+                            icon="fa-solid fa-coins"
+                            color="text-layanan-btn"
+                            bg="bg-transparent border-2 border-layanan-btn" />
                     </div>
                 </div>
                 <div class="order-1 md:order-2 translate-y-7">
@@ -477,15 +496,20 @@
 </section>
 
 <!-- Section CTA -->
-<section id="CTA" class="py-20 bg-blue">
+<section id="CTA" class="py-20 bg-[#4C7C9C]/50">
     <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl font-bold text-primary-text mb-8">Siap Memulai?</h2>
         <p class="text-xl text-[#e7ecf0] mb-8 max-w-2xl mx-auto">
             Hubungi kami untuk konsultasi gratis dan penawaran terbaik sesuai kebutuhan bisnis Anda
         </p>
-        <a href="{{ url('/kontak') }}" class="inline-block bg-ivory text-secondary-text px-8 py-3 rounded-lg hover:bg-[#e7ecf0] transition">
-            Hubungi Kami Sekarang
-        </a>
+        <div class="flex items-center justify-center">
+            <x-button-icon
+                text="Hubungi Kami"
+                url="/kontak"
+                icon="fa-solid fa-check translate-y-1"
+                color="text-layanan-btn hover:text-white"
+                bg="bg-transparent border-2 border-layanan-btn hover:bg-layanan-btn hover:border-0" />
+        </div>
     </div>
 </section>
 

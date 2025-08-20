@@ -342,6 +342,7 @@
                 icon="fa-regular fa-newspaper"
                 color="text-white"
                 bg="bg-footer-icon" />
+
         </div>
     </div>
 </section>
