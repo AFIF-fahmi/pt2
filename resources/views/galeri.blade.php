@@ -34,12 +34,12 @@
         <a href="https://images.unsplash.com/photo-1462826303086-329426d1aef5" class="group block overflow-hidden" data-lightbox="galeri" data-index="0">
           <div class="relative rounded-xl overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1462826303086-329426d1aef5"
+              src ="https://images.unsplash.com/photo-1462826303086-329426d1aef5"
               alt=""
               class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[350px] rounded-xl" />
           </div>
-          <p class="text-xl font-bold text-secondary-text">Ruangan 1</p>
-        </a>
+          <p class="text-xl font-bold text-secondary-text ">Ruangan 1</p>
+        </a> 
       </li>
 
       <!-- Foto 2 -->

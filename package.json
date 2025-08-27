@@ -21,6 +21,7 @@
         "@floating-ui/dom": "^1.7.2",
         "@preline/collapse": "^3.1.0",
         "@preline/dropdown": "^3.1.0",
+        "@vercel/analytics": "^1.5.0",
         "preline": "^3.1.0"
     }
 }
