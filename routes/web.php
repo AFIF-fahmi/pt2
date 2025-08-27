@@ -2,6 +2,16 @@
 
 use App\Http\Controllers\LayananController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\DB;
+
+Route::get('/cek-db', function () {
+    try {
+        DB::connection()->getPdo();
+        return "✅ Koneksi ke database berhasil: " . DB::connection()->getDatabaseName();
+    } catch (\Exception $e) {
+        return "❌ Gagal konek DB: " . $e->getMessage();
+    }
+});
 
 Route::get('/', function () {
     return redirect('/beranda');
@@ -23,9 +33,8 @@ Route::get('/job', function () {
     return view('job');
 });
 
-Route::get('/blog', function () {
-    return view('blog');
-})->name('blog');
+use App\Http\Controllers\BlogController;
+Route::get('/blog', [BlogController::class, 'index'])->name('blog');
 
 Route::get('/galeri', function () {
     return view('galeri');
