@@ -37,7 +37,7 @@
   <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
     <div class="flex h-16 items-center justify-between">
       <div class="md:flex md:items-center md:gap-12">
-        <a class="block text-2xl font-bold text-banner-top" href="{{ url('/beranda') }}">
+        <a class="block text-2xl font-bold text-title-navbar" href="{{ url('/beranda') }}">
           <span class="sr-only">Home</span>
           <!-- Logo -->
           GRAHA OFFICE

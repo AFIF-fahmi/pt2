@@ -9,87 +9,97 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 
-    --color-primary-heading: #F8F8F8;
-    --color-primary-text: #1A2F4B;
-    --color-secondary-text: #4C7C9C;
-    --color-secondary-text-alt: #00A38B;
+    /* ==================== */
+    /* LIGHT MODE       */
+    /* ==================== */
 
-    --color-dropdown: #4C7C9C;
+    --color-primary-heading: #F8F8F8;
+    --color-primary-text: #1A2F4B;           /* Warna Dasar */
+    --color-secondary-text: #486581;         
+    --color-secondary-text-alt: #04A7A7;     
+
+    --color-dropdown: #486581;               
     --color-primary-bckg: #F5F5F5;
     --color-secondary-bckg: #F1F1F1;
 
-    --color-banner-header: #0a1c3f;
-    --color-banner-top: #4C7C9C;
+    --color-title-navbar: #486581;            
+    --color-banner-header: #102A43;          
+    --color-banner-top: #486581;             
     --color-banner-text: #1A2F4B;
     --color-banner-text-alt: #F5F5F5;
 
-    --color-beranda-title: #2E4567;
+    --color-beranda-title: #243B53;          
 
-    --color-layanan-btn: #4C7C9C;
+    --color-layanan-btn: #486581;            
 
     --color-primary-card: #F8F8F8; 
-    --color-card-title: #0A1C3F;
+    --color-card-title: #102A43;             
 
     --color-primary-wcu: #E4ECEF;
     --color-icon-wcu: #CBE4F0;
 
     --color-primary-news: #F8F8F8;
-    --color-news-title: #0A1C3F; 
-    --color-news-read: #0A1C3F;
+    --color-news-title: #102A43;             
+    --color-news-read: #102A43;              
 
     --color-nav-layanan: #F8F8F8;
 
     --color-footer-bckg: #E4ECEF;
-    --color-footer-title: #4C7C9C;
+    --color-footer-title: #486581;           
     --color-footer-text: #1b2b42;
-    --color-footer-icon: #4C7C9C;
-    --color-footer-secondary-icon: #3D637D;
+    --color-footer-icon: #486581;            
+    --color-footer-secondary-icon: #243B53;  
 
     /* button */
-    --color-btn1: #2A3B55;
+    --color-btn1: #243B53;                   
     --color-btn1-t: #F5F5F5;
 }
 
 .dark {
-    --color-primary-heading: #2A3B55;
-    --color-primary-text: #F5F5F5;
-    --color-secondary-text: #8BB4D1;
-    --color-secondary-text-alt: #14b8a6;
+    /* =================== */
+    /* DARK MODE       */
+    /* =================== */
 
-    --color-dropdown: #009689;
-    --color-primary-bckg: #1d263b;
-    --color-secondary-bckg: #25304B;
+    --color-primary-heading: #243B53;
+    --color-primary-text: #E2E8F0;           /* Teks terang yang lembut */
+    --color-secondary-text: #829AB1;         /* Turunan harmonis dari biru */
+    --color-secondary-text-alt: #04A7A7;     /* Aksen lebih cerah */
 
-    --color-banner-header: #009689;
-    --color-banner-top: #009689;
-    --color-banner-text: #F5F5F5;
-    --color-banner-text-alt: #1d263b;
+    --color-dropdown: #04A7A7;
+    --color-primary-bckg: #0D243B;           /* Latar paling gelap & kohesif */
+    --color-secondary-bckg: #102A43;         /* Latar sekunder dari skala biru */
 
-    --color-beranda-title: #14b8a6;
+    --color-title-navbar: #E2E8F0;
+    --color-banner-header: #04A7A7;
+    --color-banner-top: #04A7A7;
+    --color-banner-text: #FFFFFF;
+    --color-banner-text-alt: #0D243B;
 
-    --color-layanan-btn: #4CA2D1;
+    --color-beranda-title: #04A7A7;
 
-    --color-primary-card: #2A3B55;
-    --color-card-title: #D1D1D1;
+    --color-layanan-btn: #486581;
 
-    --color-primary-wcu: #2A3B55;
-    --color-icon-wcu: #6B8EAD;
+    --color-primary-card: #1f3552;
+    --color-card-title: #E2E8F0;
 
-    --color-primary-news: #2A3B55;
-    --color-news-title: #8BB4D1;
-    --color-news-read: #8BB4D1;
+    --color-primary-wcu: #102A43;
+    --color-icon-wcu: #486581;
 
-    --color-nav-layanan: #334766;
+    --color-primary-news: #1A2F4B;
+    --color-news-title: #829AB1;
+    --color-news-read: #829AB1;
 
-    --color-footer-bckg: #0A1C3F;
-    --color-footer-title: #009689;
-    --color-footer-text: #e0fffc;
-    --color-footer-icon: #009689;
-    --color-footer-secondary-icon: #00786E;
+    --color-nav-layanan: #1A2F4B;
+
+    --color-footer-bckg: #0f2a3e;
+    --color-footer-title: #04A7A7;
+    --color-footer-text: #E2E8F0;
+    --color-footer-icon: #04A7A7;
+    --color-footer-secondary-icon: #04A7A7;
 
     /* button */
-    --color-btn1: #00786E;
-    --color-btn1-t: #F5F5F5;
+    --color-btn1: #04A7A7;
+    --color-btn1-t: #FFFFFF;
 }
 
 div {

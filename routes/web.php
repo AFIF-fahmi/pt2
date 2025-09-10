@@ -34,10 +34,17 @@ Route::get('/job', function () {
 });
 
 use App\Http\Controllers\BlogController;
-Route::get('/blog', [BlogController::class, 'index'])->name('blog');
+// Routea::get('/blog', [BlogController::class, 'index'])->name('blog');
+Route::get('/blog', function () {
+    return view('blog');
+});
 
 Route::get('/galeri', function () {
     return view('galeri');
+});
+
+Route::get('/test-area', function () {
+    return view('test-area');
 });
 
 // 

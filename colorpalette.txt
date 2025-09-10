@@ -46,3 +46,37 @@ Secondary Colors
 #331E22 – Rose (Penyorotan spesial)
 #2F2F2B – Pearl (Latar alternatif)
 #1E1E1E – Pure Black (Latar kartu)
+
+#79ADD5
+
+#4F8DBC
+
+#3174A7
+
+#14629D
+
+#0C4877
+
+Baris 2 (ungu muda → ungu tua):
+
+#9183DB
+
+#6C5AC5
+
+#513DB3
+
+#361FA9
+
+#261480
+
+Baris 3 (hijau muda → hijau tua):
+
+#7AE195
+
+#4FD071
+
+#30C156
+
+#0CB639
+
+#058A28
