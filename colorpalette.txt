@@ -21,7 +21,7 @@
 #F0EFE7 - Pearl (Alt backgrounds)
 #F8F8F8 - Pure White (Card backgrounds)
 
-tescolor : #1b2b42
+tescolor : #daebf0ff
 
 Dark Theme
 Primary Colors
