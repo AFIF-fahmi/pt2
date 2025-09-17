@@ -3,7 +3,7 @@
         <div class="bg-icon-wcu w-14 h-14 rounded-lg flex items-center justify-center mb-6 group-hover:scale-115 transition duration-300">
             {!! $icon !!}
         </div>
-        <p class="text-2xl pt-3 align-middle font-bold text-icon-wcu group-hover:text-white mb-5 transition-all duration-300">{{ $title }}</p>
+        <p class="text-2xl pt-3 align-middle font-bold text-title-wcu group-hover:text-title-wcu-alt mb-5 transition-all duration-300">{{ $title }}</p>
     </div>
     <p class="text-primary-text">{{ $desc }}</p>
 </div>
